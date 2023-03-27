@@ -1,0 +1,777 @@
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\TaxiApp.Services.dll.config
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\TaxiApp.Services.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\TaxiApp.Services.pdb
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.Win32.Primitives.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\netstandard.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.AppContext.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Collections.Concurrent.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Collections.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Collections.NonGeneric.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Collections.Specialized.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.ComponentModel.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.ComponentModel.EventBasedAsync.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.ComponentModel.Primitives.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.ComponentModel.TypeConverter.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Console.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Data.Common.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Diagnostics.Contracts.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Diagnostics.Debug.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Diagnostics.FileVersionInfo.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Diagnostics.Process.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Diagnostics.StackTrace.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Diagnostics.TextWriterTraceListener.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Diagnostics.Tools.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Diagnostics.TraceSource.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Diagnostics.Tracing.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Drawing.Primitives.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Dynamic.Runtime.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Globalization.Calendars.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Globalization.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Globalization.Extensions.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.IO.Compression.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.IO.Compression.ZipFile.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.IO.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.IO.FileSystem.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.IO.FileSystem.DriveInfo.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.IO.FileSystem.Primitives.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.IO.FileSystem.Watcher.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.IO.IsolatedStorage.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.IO.MemoryMappedFiles.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.IO.Pipes.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.IO.UnmanagedMemoryStream.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Linq.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Linq.Expressions.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Linq.Parallel.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Linq.Queryable.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Net.Http.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Net.NameResolution.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Net.NetworkInformation.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Net.Ping.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Net.Primitives.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Net.Requests.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Net.Security.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Net.Sockets.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Net.WebHeaderCollection.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Net.WebSockets.Client.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Net.WebSockets.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.ObjectModel.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Reflection.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Reflection.Extensions.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Reflection.Primitives.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Resources.Reader.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Resources.ResourceManager.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Resources.Writer.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Runtime.CompilerServices.VisualC.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Runtime.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Runtime.Extensions.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Runtime.Handles.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Runtime.InteropServices.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Runtime.Numerics.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Runtime.Serialization.Formatters.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Runtime.Serialization.Json.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Runtime.Serialization.Primitives.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Runtime.Serialization.Xml.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Security.Claims.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Security.Cryptography.Algorithms.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Security.Cryptography.Csp.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Security.Cryptography.Encoding.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Security.Cryptography.Primitives.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Security.Cryptography.X509Certificates.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Security.Principal.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Security.SecureString.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Text.Encoding.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Text.Encoding.Extensions.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Text.RegularExpressions.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Threading.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Threading.Overlapped.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Threading.Tasks.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Threading.Tasks.Parallel.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Threading.Thread.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Threading.ThreadPool.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Threading.Timer.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Xml.ReaderWriter.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Xml.XDocument.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Xml.XmlDocument.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Xml.XmlSerializer.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Xml.XPath.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Xml.XPath.XDocument.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Amazon.Core.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Amazon.S3.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Autofac.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\AWSSDK.Core.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\AWSSDK.S3.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Azure.Core.Amqp.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Azure.Core.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Carbon.Json.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Carbon.Storage.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Dapper.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\EntityFramework.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\EntityFramework.SqlServer.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.Azure.Amqp.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.Azure.KeyVault.Core.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.Azure.Services.AppAuthentication.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.Data.Edm.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.Data.OData.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.Data.Services.Client.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.IdentityModel.Logging.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.IdentityModel.Tokens.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.ServiceBus.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.WindowsAzure.Storage.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Newtonsoft.Json.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\RestSharp.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\SendGrid.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\StarkbankEcdsa.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Buffers.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Diagnostics.DiagnosticSource.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.IdentityModel.Tokens.Jwt.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Memory.Data.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Memory.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Numerics.Vectors.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Spatial.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Text.Encodings.Web.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Text.Json.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Threading.Tasks.Extensions.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.ValueTuple.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\TaxiApp.Data.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\TaxiApp.Entities.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\topfarms.Common.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Twilio.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\NLog.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.AspNet.Identity.Core.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\topfarms.Common.pdb
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\topfarms.Common.dll.config
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\TaxiApp.Data.pdb
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\TaxiApp.Data.dll.config
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\TaxiApp.Entities.pdb
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\TaxiApp.Entities.dll.config
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Autofac.pdb
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Autofac.xml
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\AWSSDK.Core.pdb
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\AWSSDK.Core.xml
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\AWSSDK.S3.pdb
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\AWSSDK.S3.xml
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Azure.Core.xml
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Azure.Core.Amqp.xml
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Dapper.xml
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\EntityFramework.xml
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\EntityFramework.SqlServer.xml
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.Azure.KeyVault.Core.xml
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.Azure.Services.AppAuthentication.xml
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.Bcl.AsyncInterfaces.xml
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.Data.Edm.xml
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.Data.OData.xml
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.Data.Services.Client.xml
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.xml
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.IdentityModel.JsonWebTokens.pdb
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.IdentityModel.Logging.pdb
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.IdentityModel.Logging.xml
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.IdentityModel.Tokens.pdb
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.IdentityModel.Tokens.xml
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.ServiceBus.xml
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.WindowsAzure.Storage.pdb
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.WindowsAzure.Storage.xml
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Newtonsoft.Json.pdb
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Newtonsoft.Json.xml
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\RestSharp.xml
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\SendGrid.pdb
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\SendGrid.xml
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Buffers.xml
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Diagnostics.DiagnosticSource.xml
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.IdentityModel.Tokens.Jwt.pdb
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.IdentityModel.Tokens.Jwt.xml
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Memory.xml
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Memory.Data.xml
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Numerics.Vectors.xml
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Spatial.xml
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Text.Encodings.Web.xml
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Text.Json.xml
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Threading.Tasks.Extensions.xml
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\System.ValueTuple.xml
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Twilio.xml
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\NLog.xml
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.AspNet.Identity.Core.xml
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\de\Microsoft.Data.Edm.resources.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\es\Microsoft.Data.Edm.resources.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\fr\Microsoft.Data.Edm.resources.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\it\Microsoft.Data.Edm.resources.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\ja\Microsoft.Data.Edm.resources.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\ko\Microsoft.Data.Edm.resources.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\ru\Microsoft.Data.Edm.resources.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\de\Microsoft.Data.OData.resources.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\es\Microsoft.Data.OData.resources.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\fr\Microsoft.Data.OData.resources.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\it\Microsoft.Data.OData.resources.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\ja\Microsoft.Data.OData.resources.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\ko\Microsoft.Data.OData.resources.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\ru\Microsoft.Data.OData.resources.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\de\Microsoft.Data.Services.Client.resources.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\es\Microsoft.Data.Services.Client.resources.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\fr\Microsoft.Data.Services.Client.resources.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\it\Microsoft.Data.Services.Client.resources.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\ja\Microsoft.Data.Services.Client.resources.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\ko\Microsoft.Data.Services.Client.resources.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\ru\Microsoft.Data.Services.Client.resources.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\de\System.Spatial.resources.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\es\System.Spatial.resources.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\fr\System.Spatial.resources.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\it\System.Spatial.resources.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\ja\System.Spatial.resources.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\ko\System.Spatial.resources.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\ru\System.Spatial.resources.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\zh-Hans\System.Spatial.resources.dll
+D:\TaxiApp\Library\TaxiApp.Services\bin\Release\zh-Hant\System.Spatial.resources.dll
+D:\TaxiApp\Library\TaxiApp.Services\obj\Release\TaxiApp.Services.csproj.CoreCompileInputs.cache
+D:\TaxiApp\Library\TaxiApp.Services\obj\Release\TaxiApp.Services.csproj.CopyComplete
+D:\TaxiApp\Library\TaxiApp.Services\obj\Release\TaxiApp.Services.dll
+D:\TaxiApp\Library\TaxiApp.Services\obj\Release\TaxiApp.Services.pdb
+D:\TaxiApp\Library\TaxiApp.Services\obj\Release\TaxiApp.Services.csproj.AssemblyReference.cache
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\TaxiApp.Services.dll.config
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\TaxiApp.Services.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\TaxiApp.Services.pdb
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.Win32.Primitives.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\netstandard.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.AppContext.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Collections.Concurrent.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Collections.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Collections.NonGeneric.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Collections.Specialized.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.ComponentModel.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.ComponentModel.EventBasedAsync.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.ComponentModel.Primitives.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.ComponentModel.TypeConverter.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Console.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Data.Common.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Diagnostics.Contracts.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Diagnostics.Debug.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Diagnostics.FileVersionInfo.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Diagnostics.Process.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Diagnostics.StackTrace.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Diagnostics.Tools.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Diagnostics.TraceSource.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Diagnostics.Tracing.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Drawing.Primitives.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Dynamic.Runtime.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Globalization.Calendars.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Globalization.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Globalization.Extensions.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.IO.Compression.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.IO.Compression.ZipFile.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.IO.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.IO.FileSystem.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.IO.FileSystem.DriveInfo.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.IO.FileSystem.Primitives.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.IO.FileSystem.Watcher.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.IO.IsolatedStorage.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.IO.MemoryMappedFiles.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.IO.Pipes.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.IO.UnmanagedMemoryStream.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Linq.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Linq.Expressions.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Linq.Parallel.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Linq.Queryable.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Net.Http.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Net.NameResolution.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Net.NetworkInformation.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Net.Ping.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Net.Primitives.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Net.Requests.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Net.Security.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Net.Sockets.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Net.WebHeaderCollection.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Net.WebSockets.Client.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Net.WebSockets.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.ObjectModel.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Reflection.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Reflection.Extensions.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Reflection.Primitives.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Resources.Reader.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Resources.ResourceManager.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Resources.Writer.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Runtime.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Runtime.Extensions.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Runtime.Handles.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Runtime.InteropServices.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Runtime.Numerics.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Runtime.Serialization.Formatters.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Runtime.Serialization.Json.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Runtime.Serialization.Primitives.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Runtime.Serialization.Xml.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Security.Claims.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Security.Cryptography.Algorithms.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Security.Cryptography.Csp.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Security.Cryptography.Encoding.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Security.Cryptography.Primitives.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Security.Cryptography.X509Certificates.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Security.Principal.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Security.SecureString.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Text.Encoding.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Text.Encoding.Extensions.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Text.RegularExpressions.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Threading.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Threading.Overlapped.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Threading.Tasks.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Threading.Tasks.Parallel.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Threading.Thread.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Threading.ThreadPool.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Threading.Timer.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Xml.ReaderWriter.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Xml.XDocument.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Xml.XmlDocument.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Xml.XmlSerializer.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Xml.XPath.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Xml.XPath.XDocument.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Amazon.Core.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Amazon.S3.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Autofac.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\AWSSDK.Core.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\AWSSDK.S3.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Azure.Core.Amqp.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Azure.Core.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Carbon.Json.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Carbon.Storage.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Dapper.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\EntityFramework.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.Azure.Amqp.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.Azure.Services.AppAuthentication.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.Data.Edm.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.Data.OData.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.Data.Services.Client.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.IdentityModel.Logging.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.IdentityModel.Tokens.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.ServiceBus.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.WindowsAzure.Storage.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Newtonsoft.Json.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\RestSharp.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\SendGrid.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\StarkbankEcdsa.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Buffers.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Diagnostics.DiagnosticSource.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Memory.Data.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Memory.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Numerics.Vectors.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Spatial.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Text.Encodings.Web.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Text.Json.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.ValueTuple.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\TaxiApp.Data.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\TaxiApp.Entities.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\topfarms.Common.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Twilio.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\NLog.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\topfarms.Common.pdb
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\topfarms.Common.dll.config
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\TaxiApp.Data.pdb
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\TaxiApp.Data.dll.config
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\TaxiApp.Entities.pdb
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\TaxiApp.Entities.dll.config
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Autofac.pdb
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Autofac.xml
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\AWSSDK.Core.pdb
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\AWSSDK.Core.xml
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\AWSSDK.S3.pdb
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\AWSSDK.S3.xml
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Azure.Core.xml
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Azure.Core.Amqp.xml
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Dapper.xml
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\EntityFramework.xml
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.Azure.Services.AppAuthentication.xml
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.Data.Edm.xml
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.Data.OData.xml
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.Data.Services.Client.xml
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.xml
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.IdentityModel.JsonWebTokens.pdb
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.IdentityModel.Logging.pdb
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.IdentityModel.Logging.xml
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.IdentityModel.Tokens.pdb
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.IdentityModel.Tokens.xml
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.ServiceBus.xml
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.WindowsAzure.Storage.xml
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Newtonsoft.Json.pdb
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Newtonsoft.Json.xml
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\RestSharp.xml
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\SendGrid.pdb
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\SendGrid.xml
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Buffers.xml
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Diagnostics.DiagnosticSource.xml
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.IdentityModel.Tokens.Jwt.pdb
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Memory.xml
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Memory.Data.xml
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Numerics.Vectors.xml
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Spatial.xml
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Text.Encodings.Web.xml
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Text.Json.xml
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.Threading.Tasks.Extensions.xml
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\System.ValueTuple.xml
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Twilio.xml
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\NLog.xml
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\de\Microsoft.Data.Edm.resources.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\es\Microsoft.Data.Edm.resources.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\it\Microsoft.Data.Edm.resources.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\de\Microsoft.Data.OData.resources.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\es\Microsoft.Data.OData.resources.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\fr\Microsoft.Data.OData.resources.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\it\Microsoft.Data.OData.resources.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\ja\Microsoft.Data.OData.resources.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\ko\Microsoft.Data.OData.resources.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\ru\Microsoft.Data.OData.resources.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\de\Microsoft.Data.Services.Client.resources.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\es\Microsoft.Data.Services.Client.resources.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\fr\Microsoft.Data.Services.Client.resources.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\it\Microsoft.Data.Services.Client.resources.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\ja\Microsoft.Data.Services.Client.resources.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\ko\Microsoft.Data.Services.Client.resources.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\ru\Microsoft.Data.Services.Client.resources.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\de\System.Spatial.resources.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\es\System.Spatial.resources.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\fr\System.Spatial.resources.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\it\System.Spatial.resources.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\ja\System.Spatial.resources.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\ko\System.Spatial.resources.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\ru\System.Spatial.resources.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\zh-Hans\System.Spatial.resources.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\bin\Release\zh-Hant\System.Spatial.resources.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\obj\Release\TaxiApp.Services.csproj.AssemblyReference.cache
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\obj\Release\TaxiApp.Services.csproj.CoreCompileInputs.cache
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\obj\Release\TaxiApp.Services.csproj.CopyComplete
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\obj\Release\TaxiApp.Services.dll
+C:\Users\helLO\Downloads\TaxiApp\Library\TaxiApp.Services\obj\Release\TaxiApp.Services.pdb
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\TaxiApp.Services.dll.config
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\TaxiApp.Services.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\TaxiApp.Services.pdb
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\csc.exe
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\csc.exe.config
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\csc.rsp
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\csi.exe
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\csi.exe.config
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\csi.rsp
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\Microsoft.CodeAnalysis.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\Microsoft.CSharp.Core.targets
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\Microsoft.Managed.Core.targets
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\Microsoft.VisualBasic.Core.targets
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\Microsoft.Win32.Primitives.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\System.AppContext.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\System.Collections.Immutable.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\System.Console.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\System.Diagnostics.DiagnosticSource.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\System.Diagnostics.FileVersionInfo.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\System.Diagnostics.StackTrace.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\System.Globalization.Calendars.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\System.IO.Compression.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\System.IO.Compression.ZipFile.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\System.IO.FileSystem.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\System.IO.FileSystem.Primitives.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\System.Net.Http.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\System.Net.Sockets.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\System.Reflection.Metadata.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\System.Security.Cryptography.Algorithms.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\System.Security.Cryptography.Encoding.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\System.Security.Cryptography.Primitives.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\System.Security.Cryptography.X509Certificates.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\System.Text.Encoding.CodePages.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\System.Threading.Tasks.Extensions.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\System.ValueTuple.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\System.Xml.ReaderWriter.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\System.Xml.XmlDocument.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\System.Xml.XPath.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\System.Xml.XPath.XDocument.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\vbc.exe
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\vbc.exe.config
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\vbc.rsp
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\VBCSCompiler.exe
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\roslyn\VBCSCompiler.exe.config
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Microsoft.Win32.Primitives.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\netstandard.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.AppContext.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Collections.Concurrent.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Collections.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Collections.NonGeneric.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Collections.Specialized.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.ComponentModel.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.ComponentModel.EventBasedAsync.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.ComponentModel.Primitives.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.ComponentModel.TypeConverter.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Console.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Data.Common.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Diagnostics.Contracts.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Diagnostics.Debug.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Diagnostics.FileVersionInfo.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Diagnostics.Process.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Diagnostics.StackTrace.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Diagnostics.TextWriterTraceListener.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Diagnostics.Tools.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Diagnostics.TraceSource.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Diagnostics.Tracing.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Drawing.Primitives.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Dynamic.Runtime.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Globalization.Calendars.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Globalization.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Globalization.Extensions.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.IO.Compression.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.IO.Compression.ZipFile.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.IO.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.IO.FileSystem.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.IO.FileSystem.DriveInfo.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.IO.FileSystem.Primitives.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.IO.FileSystem.Watcher.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.IO.IsolatedStorage.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.IO.MemoryMappedFiles.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.IO.Pipes.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.IO.UnmanagedMemoryStream.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Linq.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Linq.Expressions.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Linq.Parallel.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Linq.Queryable.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Net.Http.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Net.NameResolution.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Net.NetworkInformation.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Net.Ping.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Net.Primitives.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Net.Requests.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Net.Security.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Net.Sockets.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Net.WebHeaderCollection.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Net.WebSockets.Client.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Net.WebSockets.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.ObjectModel.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Reflection.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Reflection.Extensions.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Reflection.Primitives.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Resources.Reader.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Resources.ResourceManager.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Resources.Writer.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Runtime.CompilerServices.VisualC.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Runtime.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Runtime.Extensions.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Runtime.Handles.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Runtime.InteropServices.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Runtime.Numerics.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Runtime.Serialization.Formatters.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Runtime.Serialization.Json.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Runtime.Serialization.Primitives.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Runtime.Serialization.Xml.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Security.Claims.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Security.Cryptography.Algorithms.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Security.Cryptography.Csp.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Security.Cryptography.Encoding.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Security.Cryptography.Primitives.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Security.Cryptography.X509Certificates.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Security.Principal.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Security.SecureString.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Text.Encoding.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Text.Encoding.Extensions.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Text.RegularExpressions.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Threading.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Threading.Overlapped.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Threading.Tasks.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Threading.Tasks.Parallel.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Threading.Thread.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Threading.ThreadPool.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Threading.Timer.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Xml.ReaderWriter.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Xml.XDocument.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Xml.XmlDocument.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Xml.XmlSerializer.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Xml.XPath.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Xml.XPath.XDocument.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Amazon.Core.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Amazon.S3.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Autofac.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\AWSSDK.Core.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\AWSSDK.S3.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Azure.Core.Amqp.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Azure.Core.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Carbon.Json.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Carbon.Storage.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Dapper.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\EntityFramework.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\EntityFramework.SqlServer.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Microsoft.Azure.Amqp.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Microsoft.Azure.KeyVault.Core.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Microsoft.Azure.Services.AppAuthentication.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Microsoft.Data.Edm.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Microsoft.Data.OData.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Microsoft.Data.Services.Client.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Microsoft.IdentityModel.Logging.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Microsoft.IdentityModel.Tokens.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Microsoft.ServiceBus.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Microsoft.WindowsAzure.Storage.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Newtonsoft.Json.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\RestSharp.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\SendGrid.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\StarkbankEcdsa.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Buffers.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Diagnostics.DiagnosticSource.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.IdentityModel.Tokens.Jwt.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Memory.Data.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Memory.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Numerics.Vectors.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Spatial.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Text.Encodings.Web.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Text.Json.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Threading.Tasks.Extensions.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.ValueTuple.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\TaxiApp.Data.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\TaxiApp.Entities.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\topfarms.Common.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Twilio.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\NLog.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Microsoft.AspNet.Identity.Core.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\topfarms.Common.pdb
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\topfarms.Common.dll.config
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\TaxiApp.Data.pdb
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\TaxiApp.Data.dll.config
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\TaxiApp.Entities.pdb
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\TaxiApp.Entities.dll.config
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Autofac.pdb
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Autofac.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\AWSSDK.Core.pdb
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\AWSSDK.Core.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\AWSSDK.S3.pdb
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\AWSSDK.S3.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Azure.Core.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Azure.Core.Amqp.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Dapper.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\EntityFramework.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\EntityFramework.SqlServer.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Microsoft.Azure.KeyVault.Core.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Microsoft.Azure.Services.AppAuthentication.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Microsoft.Bcl.AsyncInterfaces.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Microsoft.Data.Edm.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Microsoft.Data.OData.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Microsoft.Data.Services.Client.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Microsoft.IdentityModel.JsonWebTokens.pdb
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Microsoft.IdentityModel.JsonWebTokens.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Microsoft.IdentityModel.Logging.pdb
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Microsoft.IdentityModel.Logging.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Microsoft.IdentityModel.Tokens.pdb
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Microsoft.IdentityModel.Tokens.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Microsoft.ServiceBus.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Microsoft.WindowsAzure.Storage.pdb
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Microsoft.WindowsAzure.Storage.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Newtonsoft.Json.pdb
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Newtonsoft.Json.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\RestSharp.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\SendGrid.pdb
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\SendGrid.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Buffers.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Diagnostics.DiagnosticSource.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.IdentityModel.Tokens.Jwt.pdb
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.IdentityModel.Tokens.Jwt.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Memory.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Memory.Data.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Numerics.Vectors.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Spatial.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Text.Encodings.Web.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Text.Json.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.Threading.Tasks.Extensions.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\System.ValueTuple.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Twilio.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\NLog.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\Microsoft.AspNet.Identity.Core.xml
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\de\Microsoft.Data.Edm.resources.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\es\Microsoft.Data.Edm.resources.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\fr\Microsoft.Data.Edm.resources.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\it\Microsoft.Data.Edm.resources.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\ja\Microsoft.Data.Edm.resources.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\ko\Microsoft.Data.Edm.resources.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\ru\Microsoft.Data.Edm.resources.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\zh-Hans\Microsoft.Data.Edm.resources.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\zh-Hant\Microsoft.Data.Edm.resources.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\de\Microsoft.Data.OData.resources.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\es\Microsoft.Data.OData.resources.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\fr\Microsoft.Data.OData.resources.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\it\Microsoft.Data.OData.resources.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\ja\Microsoft.Data.OData.resources.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\ko\Microsoft.Data.OData.resources.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\ru\Microsoft.Data.OData.resources.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\zh-Hans\Microsoft.Data.OData.resources.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\zh-Hant\Microsoft.Data.OData.resources.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\de\Microsoft.Data.Services.Client.resources.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\es\Microsoft.Data.Services.Client.resources.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\fr\Microsoft.Data.Services.Client.resources.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\it\Microsoft.Data.Services.Client.resources.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\ja\Microsoft.Data.Services.Client.resources.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\ko\Microsoft.Data.Services.Client.resources.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\ru\Microsoft.Data.Services.Client.resources.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\de\System.Spatial.resources.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\es\System.Spatial.resources.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\fr\System.Spatial.resources.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\it\System.Spatial.resources.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\ja\System.Spatial.resources.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\ko\System.Spatial.resources.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\ru\System.Spatial.resources.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\zh-Hans\System.Spatial.resources.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\bin\Release\zh-Hant\System.Spatial.resources.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\obj\Release\TaxiApp.Services.csproj.AssemblyReference.cache
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\obj\Release\TaxiApp.Services.csproj.CoreCompileInputs.cache
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\obj\Release\TaxiApp.Services.csproj.CopyComplete
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\obj\Release\TaxiApp.Services.dll
+G:\Shubham Work\TaxiHub\Library\TaxiApp.Services\obj\Release\TaxiApp.Services.pdb

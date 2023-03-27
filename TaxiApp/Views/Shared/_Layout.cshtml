@@ -1,0 +1,407 @@
+﻿@{ /**/
+
+    var curController = Convert.ToString(ViewContext.RouteData.Values["Controller"]);
+    var curAction = Convert.ToString(ViewContext.RouteData.Values["Action"]);
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metatags -->
+    <meta charset=utf-8>
+    <meta name=viewport content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <meta name=description content="">
+    <meta name=keywords content="">
+    <meta name=author content="">
+    <title>@ViewBag.Title :: Beauty Book</title>
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="152x152" href="~/Content/assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="~/Content/assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="~/Content/assets/images/favicons/favicon-16x16.png">
+    @*<link rel="manifest" href="~/Content/assets/images/favicons/site.webmanifest">*@
+    <link rel="mask-icon" href="~/Content/assets/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+    <meta name="msapplication-TileColor" content="#e94a1f">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Font Stylesheet -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.datatables.net/1.10.25/css/dataTables.bootstrap4.min.css" rel="stylesheet" />
+
+    <!-- Main Stylesheet -->
+    <link href="~/Content/assets/css/main.min.css" rel=stylesheet>
+    <style>
+        .pac-container {
+            z-index: 10000 !important;
+        }
+
+        :root {
+            --star-size: 25px;
+            --star-color: #ccc;
+            --star-background: #f3bf28;
+        }
+
+        .Stars {
+            --percent: calc(var(--rating) / 5 * 100%);
+            display: inline-block;
+            font-size: var(--star-size);
+            font-family: Times;
+            line-height: 1;
+        }
+
+            .Stars::before {
+                content: '★★★★★';
+                letter-spacing: 0px;
+                background: linear-gradient(90deg, var(--star-background) var(--percent), var(--star-color) var(--percent));
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+        .active-light {
+            color: #11151e !important;
+            text-decoration: none !important;
+            background-color: #f8f9fa !important;
+        }
+
+        .vendor-details-profile {
+            width: 100px !important;
+            background: #00acc1 !important;
+            color: #fff !important;
+            height: 100px !important;
+            font-size: 41px !important;
+            margin-right: 10px !important;
+        }
+
+        .table-card thead tr th {
+            background-color: #f8f9fa;
+            border-color: #dee2e6;
+            font-size: 12px;
+            line-height: 1.2;
+            letter-spacing: 0.1em;
+            color: #6c757d;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="app-root">
+        <div class="app-wrapper">
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark-primary w-100">
+                    <div class="container-fluid">
+                        <a class="h5 font-weight-medium d-flex align-items-center pr-3 mb-0 beauty-book-logo" href="@Url.Action("Index","Home")">
+                            <img src="~/Content/assets/images/logo-white.png" alt="" class="mr-3" height="30">
+                        </a>
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                            <div id="TaxiAppmenu">
+
+                            </div>
+
+                            <div class="d-flex align-items-center ml-auto">
+                                <a href="@Url.Action("Wishlist","Store")" class="btn btn-icon rounded-circle mx-1 header-icon-box">
+                                    <i class="bb-heart"></i>
+                                </a>
+
+                                <a href="@Url.Action("Cart","Store")" class="btn btn-icon rounded-circle mx-1 mr-3 header-icon-box">
+                                    <i class="bb-shopping-cart"></i>
+
+                                    @*<div class="cart-item-count" id="cartProductcount">
+                                        0
+                                    </div>*@
+                                </a>
+                                <div class="ml-auto">
+                                    <div class="dropdown">
+                                        <div class="d-flex align-items-center " data-toggle="dropdown" role="button" id="userProfilebox">
+
+                                        </div>
+
+                                        <div class="dropdown-menu dropdown-menu-right p-0 navbar-drp">
+                                            <div class="bg-primary rounded-top p-3" id="UsernameBox">
+
+                                            </div>
+
+                                            <div class="p-2">
+                                                <a class="dropdown-item" id="profileId" href="@Url.Action("EditProfile","MyProfile")">Profile</a>
+                                                <a class="dropdown-item" href="@Url.Action("EditSalonInfo","Salons")" id="editInfo">Edit Info</a>
+                                                <a class="dropdown-item" href="javascript:void(0)" onclick="changeSalons();" id="changeSalon">Change Salon</a>
+                                                <a class="dropdown-item" href="@Url.Action("ChangePassword","Authentication")" id="settingsId">Settings</a>
+                                                <a class="dropdown-item" onclick="userLogout();" href="javascript:void(0)">Logout</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </nav>
+            </header>
+
+            @RenderBody()
+
+
+        </div>
+    </div>
+
+
+    @*<script src="~/Content/TaxiAppAPI/APIEndPoint.js"></script>
+    <script src="~/Content/TaxiAppAPI/Comon/Layout.js"></script>*@
+
+    <!-- Scripts -->
+    <script src="~/Content/assets/js/jquery/jquery-3.6.0.min.js"></script>
+    <script src="~/Content/assets/js/popper/popper.min.js"></script>
+    <script src="~/Content/assets/js/bootstrap/bootstrap.min.js"></script>
+    <script src="~/Content/assets/js/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js"></script>
+    <script src="~/Content/assets/js/daterangepicker/moment.min.js"></script>
+    <script src="~/Content/assets/js/fancybox/jquery.fancybox.min.js"></script>
+
+    <!-- Plugin Path -->
+    <script>var plugin_path = '/Content/assets/js/';</script>
+
+    <script src="~/Content/assets/js/sweetalert/sweetalert2.min.js"></script>
+    <script src="~/Content/assets/js/bootstrap-select/bootstrap-select.min.js"></script>
+    <script src="~/Content/assets/js/daterangepicker/daterangepicker.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.js"></script>
+
+    <!-- Custom JS -->
+    <script src="~/Content/assets/js/main.js"></script>
+    <script src="~/Content/TaxiAppAPI/Pagination.js"></script>
+
+    <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.25/js/dataTables.bootstrap4.min.js"></script>
+    <script src="https://cdn.datatables.net/v/bs4/dt-1.10.18/r-2.2.2/sl-1.3.0/datatables.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.7.1/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.7.1/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.7.1/js/buttons.print.min.js"></script>
+
+
+    @*<script>
+
+
+        $(document).ready(function () {
+            debugger;
+            $('.selectpicker').selectpicker();
+            checkAuthenticationApi();
+
+            $(document).on('keyup', 'input[type="number"]', function () {
+                if ($(this).val() > Number($(this).attr("max"))) {
+                    val = $(this).val().slice(0, $(this).attr("max").length);
+                    $(this).val(val);
+                }
+            });
+        });
+
+        //Input time picker 24 ht to convert 12 hr
+        function onTimeChange(timeVal) {
+            var timeSplit = timeVal.split(':'),
+                hours,
+                minutes,
+                meridian;
+            hours = timeSplit[0];
+            minutes = timeSplit[1];
+            if (hours > 12) {
+                meridian = 'PM';
+                hours -= 12;
+            } else if (hours < 12) {
+                meridian = 'AM';
+                if (hours == 0) {
+                    hours = 12;
+                }
+            } else {
+                meridian = 'PM';
+            }
+            return hours + ':' + minutes + ' ' + meridian;
+        }
+
+        //getCookie
+        function getCookie(cname) {
+            var name = cname + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) == 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+
+        }
+
+        // delete cookie
+        function delete_cookie(name) {
+            document.cookie = name + '=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+        }
+
+        var UserName = getCookie("UserName");
+        var UserProfile = getCookie("UserProfileUrl");
+        var UserType = getCookie("UserTypeId");
+        var Salon = getCookie("SalonId");
+        var UserId = getCookie("UserId");
+
+        //get window path
+        var windowUrlpath = window.location.pathname;
+
+        //Salon not select redairect salon choose page
+
+        if ('/Salons/SalonsDetails' != windowUrlpath) {
+            if (Salon == "") {
+                if ('/MyProfile/EditProfile' != windowUrlpath && '/Authentication/ChangePassword' != windowUrlpath) {
+                    window.location = "/Salons/SalonsDetails";
+                } else if ('/MyProfile/EditProfile' == windowUrlpath || '/Authentication/ChangePassword' == windowUrlpath){
+                    $('#TaxiAppmenu').hide();
+                }
+            }
+        }
+
+        //userProfilebox append data
+        $('#userProfilebox').append(`
+            <span class="avatar avatar-primary avatar-circle ">
+                ${UserProfile == "" || UserProfile == null || UserProfile ==  "null" ?
+                    `<span class="avatar-initials">${UserName.charAt(0)}</span>`
+                    :
+                    `<img src="${APIEndPoint}/${UserProfile}" class="custome-profile-avatar" alt="User Profile"ActiUrln />`
+                }
+            </span>
+        `)
+        //UsernameBox append data
+        $('#UsernameBox').append(`
+            <h6 class="lh-1 mb-0 text-white">${UserName}</h6>
+             <span class="text-light fs-12 lh-1">
+                ${UserType == 1 ? 'Admin' : ''}
+                ${UserType == 2 ? 'Salon Owner' : ''}
+                ${UserType == 3 ? 'Employee' : ''}
+                ${UserType == 4 ? 'Customer' : ''}
+                ${UserType == 5 ? 'Seller' : ''}
+            </span>
+        `)
+        //TaxiAppmenu header menu append
+
+        $('#TaxiAppmenu').append(`
+            ${'/Salons/SalonsDetails' == windowUrlpath ? '' :
+                `<ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" id="dashboardId" href="@Url.Action("Index","Home")">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="servicesId" href="@Url.Action("ManageSalonServices", "SalonServices")">Services</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="employeeId" id="productsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            Staff
+                        </a>
+
+                        <div class="dropdown-menu navbar-drp" aria-labelledby="productsDropdown">
+                            <a class="dropdown-item" id="employeeManagementid" href="@Url.Action("ManageEmployee", "Employee")">Manage Employee</a>
+                            <a class="dropdown-item" id="leaveManagementId" href="@Url.Action("EmployeeLeaveManagement", "Employee")">Leave Management</a>
+                            <a class="dropdown-item" id="workSheetId" href="@Url.Action("EmployeeWorksheet", "Employee")">Work Sheet</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" id="customersId" href="@Url.Action("ManageCustomers", "Customers")">Customers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="Store" href="@Url.Action("Index","Store")">Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)")">Reports</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)")">Bookings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="appointmentsId" href="@Url.Action("ManageAppointments", "Appointments")">Appointments</a>
+                    </li>
+                </ul>`
+            }
+        `);
+
+
+        function setActiveclass() {
+            if ("@curController" == "Appointments") {
+                $('#appointmentsId').addClass('active');
+            } else if ("@curController" == "SalonServices") {
+                $('#servicesId').addClass('active');
+            } else if ("@curController" == "Customers") {
+                $('#customersId').addClass('active');
+            } else if ("@curController" == "Home"){
+                $('#dashboardId').addClass('active');
+            } else if ("@curController" == "MyProfile"){
+                $('#profileId').addClass('active-light');
+            } else if ("@curController" == "Salons"){
+                $('#editInfo').addClass('active-light');
+            } else if ("@curController" == "Authentication"){
+                $('#settingsId').addClass('active-light');
+            } else if ("@curController" == "Employee" && "@curAction" == "ManageEmployee") {
+                $('#employeeManagementid').addClass('active-light');
+                $('#employeeId').addClass('active');
+            } else if ("@curController" == "Employee" && "@curAction" == "EmployeeDetails") {
+                $('#employeeManagementid').addClass('active-light');
+                $('#employeeId').addClass('active');
+            } else if ("@curController" == "Employee" && "@curAction" == "EmployeeLeaveManagement") {
+                $('#leaveManagementId').addClass('active-light');
+                $('#employeeId').addClass('active');
+            } else if ("@curController" == "Employee" && "@curAction" == "EmployeeWorksheet") {
+                $('#employeeId').addClass('active');
+            }
+            else if ("@curController" == "Store") {
+                $('#Store').addClass('active');
+            }
+        }
+
+        function changeSalons() {
+            delete_cookie("SalonsLogoUrl");
+            delete_cookie("SalonName");
+            delete_cookie("Choosesalons");
+            delete_cookie("SalonId");
+
+            window.location = "/Salons/SalonsDetails";
+        }
+
+
+        if (atob(Salon) < 0 || atob(Salon) == "") {
+            $('.beauty-book-logo').attr('href', '/Salons/SalonsDetails')
+            $('#changeSalon').hide();
+            $('#editInfo').hide();
+        }
+
+        //User Logout
+        function userLogout() {
+            delete_cookie("SalonsLogoUrl");
+            delete_cookie("SalonName");
+            delete_cookie("Choosesalons");
+            delete_cookie("SalonId");
+            delete_cookie("UserTypeId");
+            delete_cookie("DeviceToken&Type");
+            delete_cookie("UserEmail");
+            delete_cookie("UserName");
+            delete_cookie("UserProfileUrl");
+            delete_cookie("UserId");
+            window.location = "/Authentication/SignIn";
+        }
+
+        setActiveclass();
+
+    </script>*@
+
+
+</body>
+</html>

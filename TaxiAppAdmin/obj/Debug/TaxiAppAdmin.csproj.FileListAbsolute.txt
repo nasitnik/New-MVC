@@ -1,0 +1,1260 @@
+D:\TaxiApp\TaxiAppAdmin\obj\Debug\TaxiAppAdmin.csproj.CoreCompileInputs.cache
+D:\TaxiApp\TaxiAppAdmin\bin\TaxiAppAdmin.dll.config
+D:\TaxiApp\TaxiAppAdmin\bin\TaxiAppAdmin.dll
+D:\TaxiApp\TaxiAppAdmin\bin\TaxiAppAdmin.pdb
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\csc.exe
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\csc.exe.config
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\csc.rsp
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\csi.exe
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\csi.exe.config
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\csi.rsp
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\Microsoft.Managed.Core.targets
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\System.AppContext.dll
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Collections.Immutable.dll
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Console.dll
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Globalization.Calendars.dll
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\System.IO.Compression.dll
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\System.IO.FileSystem.dll
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Net.Http.dll
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Net.Sockets.dll
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Reflection.Metadata.dll
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\System.ValueTuple.dll
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Xml.XmlDocument.dll
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Xml.XPath.dll
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\vbc.exe
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\vbc.exe.config
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\vbc.rsp
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\VBCSCompiler.exe
+D:\TaxiApp\TaxiAppAdmin\bin\roslyn\VBCSCompiler.exe.config
+D:\TaxiApp\TaxiAppAdmin\bin\Microsoft.Win32.Primitives.dll
+D:\TaxiApp\TaxiAppAdmin\bin\netstandard.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.AppContext.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Collections.Concurrent.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Collections.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Collections.NonGeneric.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Collections.Specialized.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.ComponentModel.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.ComponentModel.EventBasedAsync.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.ComponentModel.Primitives.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.ComponentModel.TypeConverter.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Console.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Data.Common.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Diagnostics.Contracts.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Diagnostics.Debug.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Diagnostics.FileVersionInfo.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Diagnostics.Process.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Diagnostics.StackTrace.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Diagnostics.TextWriterTraceListener.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Diagnostics.Tools.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Diagnostics.TraceSource.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Diagnostics.Tracing.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Drawing.Primitives.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Dynamic.Runtime.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Globalization.Calendars.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Globalization.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Globalization.Extensions.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.IO.Compression.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.IO.Compression.ZipFile.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.IO.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.IO.FileSystem.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.IO.FileSystem.DriveInfo.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.IO.FileSystem.Primitives.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.IO.FileSystem.Watcher.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.IO.IsolatedStorage.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.IO.MemoryMappedFiles.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.IO.Pipes.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.IO.UnmanagedMemoryStream.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Linq.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Linq.Expressions.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Linq.Parallel.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Linq.Queryable.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Net.Http.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Net.NameResolution.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Net.NetworkInformation.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Net.Ping.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Net.Primitives.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Net.Requests.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Net.Security.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Net.Sockets.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Net.WebHeaderCollection.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Net.WebSockets.Client.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Net.WebSockets.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.ObjectModel.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Reflection.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Reflection.Extensions.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Reflection.Primitives.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Resources.Reader.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Resources.ResourceManager.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Resources.Writer.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Runtime.CompilerServices.VisualC.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Runtime.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Runtime.Extensions.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Runtime.Handles.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Runtime.InteropServices.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Runtime.Numerics.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Runtime.Serialization.Formatters.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Runtime.Serialization.Json.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Runtime.Serialization.Primitives.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Runtime.Serialization.Xml.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Security.Claims.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Security.Cryptography.Algorithms.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Security.Cryptography.Csp.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Security.Cryptography.Encoding.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Security.Cryptography.Primitives.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Security.Cryptography.X509Certificates.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Security.Principal.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Security.SecureString.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Text.Encoding.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Text.Encoding.Extensions.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Text.RegularExpressions.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Threading.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Threading.Overlapped.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Threading.Tasks.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Threading.Tasks.Parallel.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Threading.Thread.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Threading.ThreadPool.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Threading.Timer.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.ValueTuple.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Xml.ReaderWriter.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Xml.XDocument.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Xml.XmlDocument.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Xml.XmlSerializer.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Xml.XPath.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Xml.XPath.XDocument.dll
+D:\TaxiApp\TaxiAppAdmin\bin\Antlr3.Runtime.dll
+D:\TaxiApp\TaxiAppAdmin\bin\Autofac.dll
+D:\TaxiApp\TaxiAppAdmin\bin\Autofac.Integration.Mvc.dll
+D:\TaxiApp\TaxiAppAdmin\bin\Autofac.Integration.WebApi.dll
+D:\TaxiApp\TaxiAppAdmin\bin\DataTables.dll
+D:\TaxiApp\TaxiAppAdmin\bin\GoogleMaps.LocationServices.dll
+D:\TaxiApp\TaxiAppAdmin\bin\Microsoft.AspNet.Identity.Core.dll
+D:\TaxiApp\TaxiAppAdmin\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\TaxiApp\TaxiAppAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\TaxiApp\TaxiAppAdmin\bin\Microsoft.Extensions.Primitives.dll
+D:\TaxiApp\TaxiAppAdmin\bin\Microsoft.Owin.dll
+D:\TaxiApp\TaxiAppAdmin\bin\Microsoft.Owin.Security.Cookies.dll
+D:\TaxiApp\TaxiAppAdmin\bin\Microsoft.Owin.Security.dll
+D:\TaxiApp\TaxiAppAdmin\bin\Microsoft.Owin.Security.OAuth.dll
+D:\TaxiApp\TaxiAppAdmin\bin\Microsoft.Practices.ServiceLocation.dll
+D:\TaxiApp\TaxiAppAdmin\bin\Microsoft.Web.Infrastructure.dll
+D:\TaxiApp\TaxiAppAdmin\bin\Newtonsoft.Json.dll
+D:\TaxiApp\TaxiAppAdmin\bin\Owin.dll
+D:\TaxiApp\TaxiAppAdmin\bin\RestSharp.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Buffers.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Drawing.Common.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Memory.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Net.Http.Extensions.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Net.Http.Formatting.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Net.Http.Primitives.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Numerics.Vectors.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Web.Helpers.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Web.Http.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Web.Mvc.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Web.Optimization.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Web.Razor.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Web.WebPages.Deployment.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Web.WebPages.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.Web.WebPages.Razor.dll
+D:\TaxiApp\TaxiAppAdmin\bin\TaxiApp.Entities.dll
+D:\TaxiApp\TaxiAppAdmin\bin\TaxiApp.Services.dll
+D:\TaxiApp\TaxiAppAdmin\bin\topfarms.Common.dll
+D:\TaxiApp\TaxiAppAdmin\bin\WebActivatorEx.dll
+D:\TaxiApp\TaxiAppAdmin\bin\WebGrease.dll
+D:\TaxiApp\TaxiAppAdmin\bin\Twilio.dll
+D:\TaxiApp\TaxiAppAdmin\bin\NLog.dll
+D:\TaxiApp\TaxiAppAdmin\bin\AWSSDK.S3.dll
+D:\TaxiApp\TaxiAppAdmin\bin\TaxiApp.Data.dll
+D:\TaxiApp\TaxiAppAdmin\bin\AWSSDK.Core.dll
+D:\TaxiApp\TaxiAppAdmin\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\TaxiApp\TaxiAppAdmin\bin\Microsoft.IdentityModel.Tokens.dll
+D:\TaxiApp\TaxiAppAdmin\bin\Dapper.dll
+D:\TaxiApp\TaxiAppAdmin\bin\Microsoft.IdentityModel.Logging.dll
+D:\TaxiApp\TaxiAppAdmin\bin\topfarms.Common.pdb
+D:\TaxiApp\TaxiAppAdmin\bin\topfarms.Common.dll.config
+D:\TaxiApp\TaxiAppAdmin\bin\TaxiApp.Entities.pdb
+D:\TaxiApp\TaxiAppAdmin\bin\TaxiApp.Entities.dll.config
+D:\TaxiApp\TaxiAppAdmin\bin\TaxiApp.Services.pdb
+D:\TaxiApp\TaxiAppAdmin\bin\TaxiApp.Services.dll.config
+D:\TaxiApp\TaxiAppAdmin\bin\Autofac.pdb
+D:\TaxiApp\TaxiAppAdmin\bin\Autofac.xml
+D:\TaxiApp\TaxiAppAdmin\bin\Autofac.Integration.Mvc.xml
+D:\TaxiApp\TaxiAppAdmin\bin\Autofac.Integration.WebApi.pdb
+D:\TaxiApp\TaxiAppAdmin\bin\Autofac.Integration.WebApi.xml
+D:\TaxiApp\TaxiAppAdmin\bin\Microsoft.AspNet.Identity.Core.xml
+D:\TaxiApp\TaxiAppAdmin\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\TaxiApp\TaxiAppAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\TaxiApp\TaxiAppAdmin\bin\Microsoft.Extensions.Primitives.xml
+D:\TaxiApp\TaxiAppAdmin\bin\Microsoft.Owin.xml
+D:\TaxiApp\TaxiAppAdmin\bin\Microsoft.Owin.Security.xml
+D:\TaxiApp\TaxiAppAdmin\bin\Microsoft.Owin.Security.Cookies.xml
+D:\TaxiApp\TaxiAppAdmin\bin\Microsoft.Owin.Security.OAuth.xml
+D:\TaxiApp\TaxiAppAdmin\bin\Newtonsoft.Json.pdb
+D:\TaxiApp\TaxiAppAdmin\bin\Newtonsoft.Json.xml
+D:\TaxiApp\TaxiAppAdmin\bin\RestSharp.xml
+D:\TaxiApp\TaxiAppAdmin\bin\System.Buffers.xml
+D:\TaxiApp\TaxiAppAdmin\bin\System.Memory.xml
+D:\TaxiApp\TaxiAppAdmin\bin\System.Net.Http.Formatting.xml
+D:\TaxiApp\TaxiAppAdmin\bin\System.Numerics.Vectors.xml
+D:\TaxiApp\TaxiAppAdmin\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\TaxiApp\TaxiAppAdmin\bin\System.Web.Helpers.xml
+D:\TaxiApp\TaxiAppAdmin\bin\System.Web.Http.xml
+D:\TaxiApp\TaxiAppAdmin\bin\System.Web.Mvc.xml
+D:\TaxiApp\TaxiAppAdmin\bin\System.Web.Razor.xml
+D:\TaxiApp\TaxiAppAdmin\bin\System.Web.WebPages.xml
+D:\TaxiApp\TaxiAppAdmin\bin\System.Web.WebPages.Deployment.xml
+D:\TaxiApp\TaxiAppAdmin\bin\System.Web.WebPages.Razor.xml
+D:\TaxiApp\TaxiAppAdmin\bin\System.Web.Optimization.xml
+D:\TaxiApp\TaxiAppAdmin\bin\Antlr3.Runtime.pdb
+D:\TaxiApp\TaxiAppAdmin\bin\Twilio.xml
+D:\TaxiApp\TaxiAppAdmin\bin\NLog.xml
+D:\TaxiApp\TaxiAppAdmin\bin\AWSSDK.S3.pdb
+D:\TaxiApp\TaxiAppAdmin\bin\AWSSDK.S3.xml
+D:\TaxiApp\TaxiAppAdmin\bin\TaxiApp.Data.pdb
+D:\TaxiApp\TaxiAppAdmin\bin\TaxiApp.Data.dll.config
+D:\TaxiApp\TaxiAppAdmin\bin\AWSSDK.Core.pdb
+D:\TaxiApp\TaxiAppAdmin\bin\AWSSDK.Core.xml
+D:\TaxiApp\TaxiAppAdmin\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\TaxiApp\TaxiAppAdmin\bin\Microsoft.IdentityModel.Tokens.xml
+D:\TaxiApp\TaxiAppAdmin\bin\Dapper.xml
+D:\TaxiApp\TaxiAppAdmin\obj\Debug\TaxiAppAdmin.csproj.CopyComplete
+D:\TaxiApp\TaxiAppAdmin\obj\Debug\TaxiAppAdmin.dll
+D:\TaxiApp\TaxiAppAdmin\obj\Debug\TaxiAppAdmin.pdb
+D:\TaxiApp\TaxiAppAdmin\obj\Debug\TaxiAppAdmin.csproj.AssemblyReference.cache
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\TaxiAppAdmin.dll.config
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\TaxiAppAdmin.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\TaxiAppAdmin.pdb
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\csc.exe
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\csc.exe.config
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\csc.rsp
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\csi.exe
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\csi.exe.config
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\csi.rsp
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\System.AppContext.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Console.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\System.IO.Compression.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Net.Http.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Net.Sockets.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\System.ValueTuple.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Xml.XPath.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\vbc.exe
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\vbc.exe.config
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\vbc.rsp
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\VBCSCompiler.exe
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Microsoft.Win32.Primitives.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\netstandard.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.AppContext.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Collections.Concurrent.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Collections.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Collections.NonGeneric.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Collections.Specialized.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.ComponentModel.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.ComponentModel.Primitives.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Console.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Data.Common.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Diagnostics.Contracts.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Diagnostics.Debug.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Diagnostics.Process.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Diagnostics.StackTrace.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Diagnostics.Tools.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Diagnostics.TraceSource.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Diagnostics.Tracing.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Drawing.Primitives.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Dynamic.Runtime.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Globalization.Calendars.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Globalization.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Globalization.Extensions.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.IO.Compression.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.IO.Compression.ZipFile.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.IO.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.IO.FileSystem.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.IO.IsolatedStorage.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.IO.Pipes.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Linq.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Linq.Expressions.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Linq.Parallel.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Linq.Queryable.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Net.Http.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Net.NameResolution.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Net.NetworkInformation.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Net.Ping.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Net.Primitives.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Net.Requests.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Net.Security.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Net.Sockets.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Net.WebHeaderCollection.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Net.WebSockets.Client.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Net.WebSockets.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.ObjectModel.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Reflection.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Reflection.Extensions.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Reflection.Primitives.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Resources.Reader.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Resources.ResourceManager.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Resources.Writer.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Runtime.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Runtime.Extensions.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Runtime.Handles.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Runtime.InteropServices.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Runtime.Numerics.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Runtime.Serialization.Json.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Security.Claims.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Security.Cryptography.Csp.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Security.Principal.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Security.SecureString.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Text.Encoding.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Text.Encoding.Extensions.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Text.RegularExpressions.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Threading.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Threading.Overlapped.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Threading.Tasks.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Threading.Thread.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Threading.ThreadPool.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Threading.Timer.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.ValueTuple.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Xml.ReaderWriter.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Xml.XDocument.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Xml.XmlDocument.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Xml.XmlSerializer.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Xml.XPath.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Xml.XPath.XDocument.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Antlr3.Runtime.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Autofac.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Autofac.Integration.Mvc.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Autofac.Integration.WebApi.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\DataTables.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\GoogleMaps.LocationServices.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Microsoft.Owin.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Microsoft.Owin.Security.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Newtonsoft.Json.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Owin.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\RestSharp.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Buffers.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Drawing.Common.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Memory.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Net.Http.Extensions.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Net.Http.Formatting.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Net.Http.Primitives.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Numerics.Vectors.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Web.Helpers.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Web.Http.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Web.Mvc.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Web.Optimization.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Web.Razor.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Web.WebPages.Deployment.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Web.WebPages.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Web.WebPages.Razor.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\TaxiApp.Entities.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\TaxiApp.Services.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\topfarms.Common.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\WebActivatorEx.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\WebGrease.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Twilio.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\NLog.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\AWSSDK.S3.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\TaxiApp.Data.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\AWSSDK.Core.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Dapper.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\topfarms.Common.pdb
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\topfarms.Common.dll.config
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\TaxiApp.Entities.pdb
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\TaxiApp.Entities.dll.config
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\TaxiApp.Services.pdb
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\TaxiApp.Services.dll.config
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Autofac.pdb
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Autofac.xml
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Autofac.Integration.Mvc.xml
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Autofac.Integration.WebApi.pdb
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Autofac.Integration.WebApi.xml
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Microsoft.Owin.xml
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Microsoft.Owin.Security.xml
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Newtonsoft.Json.pdb
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Newtonsoft.Json.xml
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\RestSharp.xml
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Buffers.xml
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Memory.xml
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Net.Http.Formatting.xml
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Numerics.Vectors.xml
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Web.Helpers.xml
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Web.Http.xml
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Web.Mvc.xml
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Web.Razor.xml
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Web.WebPages.xml
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Web.WebPages.Deployment.xml
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Web.WebPages.Razor.xml
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.Web.Optimization.xml
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Antlr3.Runtime.pdb
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Twilio.xml
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\NLog.xml
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\AWSSDK.S3.pdb
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\AWSSDK.S3.xml
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\TaxiApp.Data.pdb
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\TaxiApp.Data.dll.config
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\AWSSDK.Core.pdb
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\AWSSDK.Core.xml
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\bin\Dapper.xml
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\obj\Debug\TaxiAppAdmin.csproj.AssemblyReference.cache
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\obj\Debug\TaxiAppAdmin.csproj.CoreCompileInputs.cache
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\obj\Debug\TaxiAppAdmin.csproj.CopyComplete
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\obj\Debug\TaxiAppAdmin.dll
+C:\Users\helLO\Downloads\TaxiApp\TaxiAppAdmin\obj\Debug\TaxiAppAdmin.pdb
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\TaxiAppAdmin.dll.config
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\TaxiAppAdmin.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\TaxiAppAdmin.pdb
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\csc.exe.config
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\csc.rsp
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\csi.exe.config
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\csi.rsp
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\System.AppContext.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\System.Collections.Immutable.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\System.Console.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\System.Globalization.Calendars.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\System.IO.Compression.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\System.IO.FileSystem.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\System.Net.Http.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\System.Net.Sockets.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\System.Reflection.Metadata.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\System.ValueTuple.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\System.Xml.XPath.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\vbc.exe.config
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\vbc.rsp
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\VBCSCompiler.exe.config
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Microsoft.Win32.Primitives.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\netstandard.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.AppContext.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Collections.Concurrent.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Collections.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Collections.NonGeneric.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Collections.Specialized.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.ComponentModel.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.ComponentModel.EventBasedAsync.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.ComponentModel.Primitives.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.ComponentModel.TypeConverter.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Console.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Data.Common.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Diagnostics.Contracts.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Diagnostics.Debug.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Diagnostics.FileVersionInfo.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Diagnostics.Process.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Diagnostics.StackTrace.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Diagnostics.TextWriterTraceListener.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Diagnostics.Tools.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Diagnostics.TraceSource.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Diagnostics.Tracing.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Drawing.Primitives.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Dynamic.Runtime.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Globalization.Calendars.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Globalization.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Globalization.Extensions.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.IO.Compression.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.IO.Compression.ZipFile.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.IO.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.IO.FileSystem.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.IO.FileSystem.DriveInfo.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.IO.FileSystem.Primitives.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.IO.FileSystem.Watcher.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.IO.IsolatedStorage.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.IO.MemoryMappedFiles.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.IO.Pipes.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.IO.UnmanagedMemoryStream.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Linq.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Linq.Expressions.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Linq.Parallel.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Linq.Queryable.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Net.Http.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Net.NameResolution.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Net.NetworkInformation.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Net.Ping.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Net.Primitives.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Net.Requests.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Net.Security.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Net.Sockets.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Net.WebHeaderCollection.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Net.WebSockets.Client.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Net.WebSockets.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.ObjectModel.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Reflection.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Reflection.Extensions.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Reflection.Primitives.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Resources.Reader.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Resources.ResourceManager.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Resources.Writer.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Runtime.CompilerServices.VisualC.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Runtime.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Runtime.Extensions.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Runtime.Handles.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Runtime.InteropServices.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Runtime.Numerics.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Runtime.Serialization.Formatters.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Runtime.Serialization.Json.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Runtime.Serialization.Primitives.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Runtime.Serialization.Xml.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Security.Claims.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Security.Cryptography.Algorithms.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Security.Cryptography.Csp.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Security.Cryptography.Encoding.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Security.Cryptography.Primitives.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Security.Cryptography.X509Certificates.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Security.Principal.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Security.SecureString.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Text.Encoding.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Text.Encoding.Extensions.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Text.RegularExpressions.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Threading.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Threading.Overlapped.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Threading.Tasks.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Threading.Tasks.Parallel.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Threading.Thread.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Threading.ThreadPool.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Threading.Timer.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.ValueTuple.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Xml.ReaderWriter.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Xml.XDocument.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Xml.XmlDocument.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Xml.XmlSerializer.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Xml.XPath.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Xml.XPath.XDocument.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Antlr3.Runtime.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Autofac.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Autofac.Integration.Mvc.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Autofac.Integration.WebApi.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\DataTables.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\GoogleMaps.LocationServices.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Microsoft.Extensions.Primitives.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Microsoft.Owin.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Microsoft.Owin.Security.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Microsoft.Practices.ServiceLocation.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Microsoft.Web.Infrastructure.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Newtonsoft.Json.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Owin.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\RestSharp.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Buffers.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Drawing.Common.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Memory.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Net.Http.Extensions.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Net.Http.Formatting.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Net.Http.Primitives.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Numerics.Vectors.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Web.Helpers.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Web.Http.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Web.Mvc.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Web.Optimization.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Web.Razor.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Web.WebPages.Deployment.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Web.WebPages.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Web.WebPages.Razor.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\TaxiApp.Entities.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\TaxiApp.Services.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\topfarms.Common.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\WebActivatorEx.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\WebGrease.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Twilio.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\NLog.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\AWSSDK.S3.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\TaxiApp.Data.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\AWSSDK.Core.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Microsoft.IdentityModel.Tokens.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Dapper.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Microsoft.IdentityModel.Logging.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\topfarms.Common.pdb
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\topfarms.Common.dll.config
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\TaxiApp.Entities.pdb
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\TaxiApp.Entities.dll.config
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\TaxiApp.Services.pdb
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\TaxiApp.Services.dll.config
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Autofac.pdb
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Autofac.xml
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Autofac.Integration.Mvc.xml
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Autofac.Integration.WebApi.pdb
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Autofac.Integration.WebApi.xml
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Microsoft.Extensions.Primitives.xml
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Microsoft.Owin.xml
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Microsoft.Owin.Security.xml
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Newtonsoft.Json.pdb
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Newtonsoft.Json.xml
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\RestSharp.xml
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Buffers.xml
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Memory.xml
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Net.Http.Formatting.xml
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Numerics.Vectors.xml
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Web.Helpers.xml
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Web.Http.xml
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Web.Mvc.xml
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Web.Razor.xml
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Web.WebPages.xml
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Web.WebPages.Deployment.xml
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Web.WebPages.Razor.xml
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.Web.Optimization.xml
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Antlr3.Runtime.pdb
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Twilio.xml
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\NLog.xml
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\AWSSDK.S3.pdb
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\AWSSDK.S3.xml
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\TaxiApp.Data.pdb
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\TaxiApp.Data.dll.config
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\AWSSDK.Core.pdb
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\AWSSDK.Core.xml
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Microsoft.IdentityModel.Tokens.xml
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\Dapper.xml
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\obj\Debug\TaxiAppAdmin.csproj.AssemblyReference.cache
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\obj\Debug\TaxiAppAdmin.csproj.CoreCompileInputs.cache
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\obj\Debug\TaxiAppAdmin.csproj.CopyComplete
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\obj\Debug\TaxiAppAdmin.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\obj\Debug\TaxiAppAdmin.pdb
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\csc.exe
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\csi.exe
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\System.IO.Pipes.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\System.Security.AccessControl.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\System.Security.Claims.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\vbc.exe
+D:\Clone-Work\TaxiApplication\TaxiAppAdmin\bin\roslyn\VBCSCompiler.exe
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\TaxiAppAdmin.dll.config
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\TaxiAppAdmin.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\TaxiAppAdmin.pdb
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\csc.exe.config
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\csc.rsp
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\csi.exe.config
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\csi.rsp
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\System.AppContext.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Collections.Immutable.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Console.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Globalization.Calendars.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\System.IO.Compression.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\System.IO.FileSystem.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\System.IO.Pipes.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Net.Http.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Net.Sockets.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Reflection.Metadata.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Security.AccessControl.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Security.Claims.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\System.ValueTuple.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Xml.XPath.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\vbc.exe.config
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\vbc.rsp
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\VBCSCompiler.exe.config
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Microsoft.Win32.Primitives.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\netstandard.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.AppContext.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Collections.Concurrent.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Collections.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Collections.NonGeneric.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Collections.Specialized.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.ComponentModel.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.ComponentModel.EventBasedAsync.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.ComponentModel.Primitives.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.ComponentModel.TypeConverter.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Console.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Data.Common.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Diagnostics.Contracts.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Diagnostics.Debug.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Diagnostics.FileVersionInfo.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Diagnostics.Process.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Diagnostics.StackTrace.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Diagnostics.TextWriterTraceListener.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Diagnostics.Tools.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Diagnostics.TraceSource.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Diagnostics.Tracing.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Drawing.Primitives.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Dynamic.Runtime.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Globalization.Calendars.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Globalization.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Globalization.Extensions.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.IO.Compression.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.IO.Compression.ZipFile.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.IO.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.IO.FileSystem.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.IO.FileSystem.DriveInfo.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.IO.FileSystem.Primitives.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.IO.FileSystem.Watcher.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.IO.IsolatedStorage.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.IO.MemoryMappedFiles.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.IO.Pipes.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.IO.UnmanagedMemoryStream.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Linq.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Linq.Expressions.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Linq.Parallel.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Linq.Queryable.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Net.Http.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Net.NameResolution.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Net.NetworkInformation.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Net.Ping.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Net.Primitives.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Net.Requests.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Net.Security.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Net.Sockets.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Net.WebHeaderCollection.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Net.WebSockets.Client.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Net.WebSockets.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.ObjectModel.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Reflection.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Reflection.Extensions.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Reflection.Primitives.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Resources.Reader.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Resources.ResourceManager.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Resources.Writer.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Runtime.CompilerServices.VisualC.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Runtime.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Runtime.Extensions.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Runtime.Handles.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Runtime.InteropServices.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Runtime.Numerics.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Runtime.Serialization.Formatters.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Runtime.Serialization.Json.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Runtime.Serialization.Primitives.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Runtime.Serialization.Xml.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Security.Claims.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Security.Cryptography.Algorithms.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Security.Cryptography.Csp.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Security.Cryptography.Encoding.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Security.Cryptography.Primitives.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Security.Cryptography.X509Certificates.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Security.Principal.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Security.SecureString.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Text.Encoding.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Text.Encoding.Extensions.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Text.RegularExpressions.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Threading.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Threading.Overlapped.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Threading.Tasks.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Threading.Tasks.Parallel.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Threading.Thread.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Threading.ThreadPool.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Threading.Timer.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.ValueTuple.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Xml.ReaderWriter.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Xml.XDocument.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Xml.XmlDocument.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Xml.XmlSerializer.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Xml.XPath.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Xml.XPath.XDocument.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Antlr3.Runtime.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Autofac.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Autofac.Integration.Mvc.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Autofac.Integration.WebApi.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\DataTables.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\GoogleMaps.LocationServices.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Microsoft.Extensions.Primitives.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Microsoft.Owin.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Microsoft.Owin.Security.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Microsoft.Practices.ServiceLocation.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Microsoft.Web.Infrastructure.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Newtonsoft.Json.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Owin.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\RestSharp.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Buffers.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Drawing.Common.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Memory.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Net.Http.Extensions.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Net.Http.Formatting.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Net.Http.Primitives.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Numerics.Vectors.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Web.Helpers.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Web.Http.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Web.Mvc.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Web.Optimization.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Web.Razor.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Web.WebPages.Deployment.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Web.WebPages.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Web.WebPages.Razor.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\TaxiApp.Entities.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\TaxiApp.Services.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\topfarms.Common.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\WebActivatorEx.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\WebGrease.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Twilio.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\NLog.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\AWSSDK.S3.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\TaxiApp.Data.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\AWSSDK.Core.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Microsoft.IdentityModel.Tokens.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Dapper.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Microsoft.IdentityModel.Logging.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\topfarms.Common.pdb
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\topfarms.Common.dll.config
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\TaxiApp.Entities.pdb
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\TaxiApp.Entities.dll.config
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\TaxiApp.Services.pdb
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\TaxiApp.Services.dll.config
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Autofac.pdb
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Autofac.xml
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Autofac.Integration.Mvc.xml
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Autofac.Integration.WebApi.pdb
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Autofac.Integration.WebApi.xml
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Microsoft.Extensions.Primitives.xml
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Microsoft.Owin.xml
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Microsoft.Owin.Security.xml
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Newtonsoft.Json.pdb
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Newtonsoft.Json.xml
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\RestSharp.xml
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Buffers.xml
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Memory.xml
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Net.Http.Formatting.xml
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Numerics.Vectors.xml
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Web.Helpers.xml
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Web.Http.xml
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Web.Mvc.xml
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Web.Razor.xml
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Web.WebPages.xml
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Web.WebPages.Deployment.xml
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Web.WebPages.Razor.xml
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.Web.Optimization.xml
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Antlr3.Runtime.pdb
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Twilio.xml
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\NLog.xml
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\AWSSDK.S3.pdb
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\AWSSDK.S3.xml
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\TaxiApp.Data.pdb
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\TaxiApp.Data.dll.config
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\AWSSDK.Core.pdb
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\AWSSDK.Core.xml
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Microsoft.IdentityModel.Tokens.xml
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\Dapper.xml
+D:\Soboft\TaxiHub\TaxiAppAdmin\obj\Debug\TaxiAppAdmin.csproj.AssemblyReference.cache
+D:\Soboft\TaxiHub\TaxiAppAdmin\obj\Debug\TaxiAppAdmin.csproj.CoreCompileInputs.cache
+D:\Soboft\TaxiHub\TaxiAppAdmin\obj\Debug\TaxiAppAdmin.csproj.CopyComplete
+D:\Soboft\TaxiHub\TaxiAppAdmin\obj\Debug\TaxiAppAdmin.dll
+D:\Soboft\TaxiHub\TaxiAppAdmin\obj\Debug\TaxiAppAdmin.pdb
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\csc.exe
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\csi.exe
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\vbc.exe
+D:\Soboft\TaxiHub\TaxiAppAdmin\bin\roslyn\VBCSCompiler.exe
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\TaxiAppAdmin.dll.config
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\TaxiAppAdmin.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\TaxiAppAdmin.pdb
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\csc.exe
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\csc.exe.config
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\csc.rsp
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\csi.exe
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\csi.exe.config
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\csi.rsp
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\Microsoft.Managed.Core.targets
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\Microsoft.Win32.Primitives.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\System.AppContext.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Collections.Immutable.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Console.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Globalization.Calendars.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\System.IO.Compression.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\System.IO.Compression.ZipFile.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\System.IO.FileSystem.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\System.IO.Pipes.AccessControl.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\System.IO.Pipes.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Net.Http.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Net.Sockets.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Reflection.Metadata.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Security.AccessControl.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Security.Claims.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Security.Cryptography.Encoding.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Security.Cryptography.Primitives.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Security.Principal.Windows.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Text.Encoding.CodePages.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Threading.Tasks.Extensions.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\System.ValueTuple.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Xml.ReaderWriter.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Xml.XmlDocument.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Xml.XPath.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\System.Xml.XPath.XDocument.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\vbc.exe
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\vbc.exe.config
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\vbc.rsp
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\VBCSCompiler.exe
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\roslyn\VBCSCompiler.exe.config
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Microsoft.Win32.Primitives.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\netstandard.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.AppContext.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Collections.Concurrent.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Collections.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Collections.NonGeneric.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Collections.Specialized.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.ComponentModel.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.ComponentModel.EventBasedAsync.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.ComponentModel.Primitives.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.ComponentModel.TypeConverter.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Console.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Data.Common.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Diagnostics.Contracts.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Diagnostics.Debug.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Diagnostics.FileVersionInfo.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Diagnostics.Process.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Diagnostics.StackTrace.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Diagnostics.TextWriterTraceListener.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Diagnostics.Tools.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Diagnostics.TraceSource.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Diagnostics.Tracing.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Drawing.Primitives.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Dynamic.Runtime.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Globalization.Calendars.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Globalization.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Globalization.Extensions.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.IO.Compression.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.IO.Compression.ZipFile.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.IO.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.IO.FileSystem.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.IO.FileSystem.DriveInfo.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.IO.FileSystem.Primitives.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.IO.FileSystem.Watcher.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.IO.IsolatedStorage.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.IO.MemoryMappedFiles.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.IO.Pipes.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.IO.UnmanagedMemoryStream.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Linq.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Linq.Expressions.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Linq.Parallel.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Linq.Queryable.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Net.Http.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Net.NameResolution.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Net.NetworkInformation.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Net.Ping.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Net.Primitives.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Net.Requests.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Net.Security.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Net.Sockets.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Net.WebHeaderCollection.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Net.WebSockets.Client.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Net.WebSockets.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.ObjectModel.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Reflection.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Reflection.Extensions.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Reflection.Primitives.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Resources.Reader.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Resources.ResourceManager.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Resources.Writer.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Runtime.CompilerServices.VisualC.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Runtime.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Runtime.Extensions.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Runtime.Handles.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Runtime.InteropServices.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Runtime.Numerics.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Runtime.Serialization.Formatters.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Runtime.Serialization.Json.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Runtime.Serialization.Primitives.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Runtime.Serialization.Xml.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Security.Claims.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Security.Cryptography.Algorithms.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Security.Cryptography.Csp.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Security.Cryptography.Encoding.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Security.Cryptography.Primitives.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Security.Cryptography.X509Certificates.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Security.Principal.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Security.SecureString.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Text.Encoding.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Text.Encoding.Extensions.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Text.RegularExpressions.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Threading.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Threading.Overlapped.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Threading.Tasks.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Threading.Tasks.Parallel.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Threading.Thread.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Threading.ThreadPool.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Threading.Timer.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.ValueTuple.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Xml.ReaderWriter.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Xml.XDocument.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Xml.XmlDocument.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Xml.XmlSerializer.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Xml.XPath.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Xml.XPath.XDocument.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Antlr3.Runtime.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Autofac.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Autofac.Integration.Mvc.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Autofac.Integration.WebApi.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\DataTables.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\GoogleMaps.LocationServices.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Microsoft.AspNet.Identity.Core.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Microsoft.Extensions.Primitives.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Microsoft.Owin.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Microsoft.Owin.Security.Cookies.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Microsoft.Owin.Security.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Microsoft.Owin.Security.OAuth.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Microsoft.Practices.ServiceLocation.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Microsoft.Web.Infrastructure.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Newtonsoft.Json.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Owin.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\RestSharp.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Buffers.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Drawing.Common.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Memory.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Net.Http.Extensions.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Net.Http.Formatting.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Net.Http.Primitives.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Numerics.Vectors.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Runtime.CompilerServices.Unsafe.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Web.Helpers.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Web.Http.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Web.Mvc.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Web.Optimization.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Web.Razor.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Web.WebPages.Deployment.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Web.WebPages.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Web.WebPages.Razor.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\TaxiApp.Entities.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\TaxiApp.Services.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\topfarms.Common.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\WebActivatorEx.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\WebGrease.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Twilio.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\NLog.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\AWSSDK.S3.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\TaxiApp.Data.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\AWSSDK.Core.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.IdentityModel.Tokens.Jwt.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Microsoft.IdentityModel.Tokens.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Dapper.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Microsoft.IdentityModel.Logging.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\topfarms.Common.pdb
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\topfarms.Common.dll.config
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\TaxiApp.Entities.pdb
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\TaxiApp.Entities.dll.config
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\TaxiApp.Services.pdb
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\TaxiApp.Services.dll.config
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Autofac.pdb
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Autofac.xml
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Autofac.Integration.Mvc.xml
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Autofac.Integration.WebApi.pdb
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Autofac.Integration.WebApi.xml
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Microsoft.AspNet.Identity.Core.xml
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Microsoft.Extensions.Primitives.xml
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Microsoft.Owin.xml
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Microsoft.Owin.Security.xml
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Microsoft.Owin.Security.Cookies.xml
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Microsoft.Owin.Security.OAuth.xml
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Newtonsoft.Json.pdb
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Newtonsoft.Json.xml
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\RestSharp.xml
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Buffers.xml
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Memory.xml
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Net.Http.Formatting.xml
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Numerics.Vectors.xml
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Runtime.CompilerServices.Unsafe.xml
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Web.Helpers.xml
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Web.Http.xml
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Web.Mvc.xml
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Web.Razor.xml
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Web.WebPages.xml
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Web.WebPages.Deployment.xml
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Web.WebPages.Razor.xml
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.Web.Optimization.xml
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Antlr3.Runtime.pdb
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Twilio.xml
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\NLog.xml
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\AWSSDK.S3.pdb
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\AWSSDK.S3.xml
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\TaxiApp.Data.pdb
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\TaxiApp.Data.dll.config
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\AWSSDK.Core.pdb
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\AWSSDK.Core.xml
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\System.IdentityModel.Tokens.Jwt.xml
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Microsoft.IdentityModel.Tokens.xml
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\bin\Dapper.xml
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\obj\Debug\TaxiAppAdmin.csproj.AssemblyReference.cache
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\obj\Debug\TaxiAppAdmin.csproj.CoreCompileInputs.cache
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\obj\Debug\TaxiAppAdmin.csproj.CopyComplete
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\obj\Debug\TaxiAppAdmin.dll
+G:\Shubham Work\TaxiHub\TaxiAppAdmin\obj\Debug\TaxiAppAdmin.pdb

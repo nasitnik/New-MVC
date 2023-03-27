@@ -1,0 +1,264 @@
+﻿@using TaxiApp.Common;
+@using TaxiAppAdmin.Pages;
+@using TaxiAppAdmin.Infrastructure;
+
+@Html.AntiForgeryToken()
+
+@{
+    ViewBag.Title = "Manage Faq";
+}
+<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet" />
+<style>
+    .body {
+        margin: 0;
+        padding: 0;
+        background: #fff;
+    }
+
+    .checkbox2 {
+        width: 25px;
+        height: 25px;
+    }
+
+    thead {
+        background: #0069D9;
+        color: white;
+    }
+
+    .row {
+        margin: 0 !important;
+    }
+
+    .activ {
+        background: linear-gradient(to right, #0069D9, #0069D9);
+        color: white;
+    }
+
+    .has-error .checkbox, .has-error .checkbox-inline, .has-error .control-label, .has-error .form-control-feedback, .has-error .help-block, .has-error .radio, .has-error .radio-inline, .has-error.checkbox label, .has-error.checkbox-inline label, .has-error.radio label, .has-error.radio-inline label {
+        color: #e73d4a
+    }
+
+    .has-error .form-control {
+        border-color: #e73d4a;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075)
+    }
+
+        .has-error .form-control:focus {
+            border-color: #d71b29;
+            -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #f2989f;
+            box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #f2989f
+        }
+
+    .has-error .input-group-addon {
+        color: #e73d4a;
+        border-color: #e73d4a;
+        background-color: #fbe1e3
+    }
+
+    .autocomplete-items {
+        position: absolute;
+        border: 1px solid #d4d4d4;
+        border-bottom: none;
+        z-index: 99;
+        top: 40px;
+        left: 0;
+        right: 0;
+        box-shadow: 0 39px 70px 0 rgba(0, 0, 0, 0.1);
+        background-color: #ffffff;
+    }
+
+        .autocomplete-items > div {
+            padding: 10px;
+            cursor: pointer;
+            border-bottom: 1px solid #ccc;
+        }
+
+            .autocomplete-items > div:hover {
+                background: #fbfbfb;
+            }
+
+    .addDelete {
+        color: black !important;
+        background: #e9e9e9 !important;
+    }
+
+    .hideDelete {
+        display: none !important;
+    }
+</style>
+
+<div class="block-header">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <h2><a href="javascript:void(0);" class="btn btn-xs btn-link btn-toggle-fullwidth"><i class="fa fa-arrow-left"></i></a>Manage Faq</h2>
+            <ul class="breadcrumb">
+                <li class="breadcrumb-item"><a href="@Url.Action(Actions.Index,Controllers.Home,new { Area=""})"><i class="icon-home"></i></a></li>
+                <li class="breadcrumb-item active">Manage Faq</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="row clearfix">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="card">
+            <div class="body">
+                <input type="text" id="orderStatusid" hidden />
+                <form action="#" name="registration">
+                    <div class="">
+                        <label for="forfaq">For Faq</label>
+                        <div>
+                            <input type="radio" id="forfaq" checked name="forfaq" value="1">
+                            <label for="driver">Driver</label>
+                            <input type="radio" id="forfaq" name="forfaq" value="2">
+                            <label for="customer">Customer</label>
+                        </div>
+                    </div>
+                    <div class="">
+                        <label for="question">Question</label>
+                        <textarea id="question" name="question" placeholder="Enter Question here..."></textarea>
+                    </div>
+                    <br />
+                    <div class="">
+                        <label for="answer">Answer</label>
+                        <textarea id="answer" name="answer" placeholder="Enter Answer here..."></textarea>
+                    </div>
+                    <br />
+                    <div class="col-12" style="text-align:right;">
+                            <button type="button" class="btn btn-primary closeBtn" onclick="AddOrderNewStatus();">Save</button>
+                            <button class="btn btn-primary loading" type="button" disabled style="display:none;float:right;">
+                                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                                Saving...
+                            </button>
+                            <button type="button" class="btn btn-secondary closeBtn" onclick="closeModal();">Close</button>
+                        </div>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+@section dashboardscripts{
+    <script src="https://cdn.ckeditor.com/4.9.2/standard/ckeditor.js"></script>
+    <script src="~/Scripts/datatable.js"></script>
+    <script src="~/Scripts/datatables.min.js"></script>
+    <script src="~/Scripts/datatables.bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+}
+
+@section Scripts {
+
+    <script>
+        CKEDITOR.replace('question');
+        CKEDITOR.replace('answer');
+
+        $(document).ready(() => {
+            EditFaq();
+
+            $('textarea').each(function () {
+                $(this).val($(this).val().trim());
+            }
+            );
+        });
+
+        var abc = $('input[type="radio"]:checked').val();
+
+        function AddOrderNewStatus() {
+
+            var question1 = CKEDITOR.instances['question'].getData();
+            var question = question1.replace(/<p>(.*)<\/p>/g, "$1");
+            var answer1 = CKEDITOR.instances['answer'].getData();
+            var answer = answer1.replace(/<p>(.*)<\/p>/g, "$1");
+            if (question1 == "") {
+                alert('Question is required')
+            } else if (answer1 == "") {
+                alert('Answer is required')
+            }
+            else {
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action(Actions.FaqUpsert, Controllers.Faq)',
+                    async: false,
+                    data: ({
+                        Id: $("#orderStatusid").val(),
+                        ForFaq: $('input[type="radio"]:checked').val(),
+                        Question: question,
+                        Answer: answer,
+                    }),
+                    dataType: 'json',
+                    success: function (response) {
+                        if (response.Code == 200) {
+                            swal("Great!", response.Message, "success");
+                            setTimeout(function () {
+                        window.location = '@Url.Action(Actions.Index, Controllers.Faq)'
+
+                            }, 200);
+                        }
+                        else {
+                            swal("Error !", response.Message , "error");
+                        }
+                        //blank value for input
+
+                        $('#orderStatusid').val(0)
+                        $('#question').val('')
+                        $('#answer').val('')
+
+                        //window.location = '@Url.Action(Actions.Index, Controllers.Faq)'
+                    },
+                    error: function (error) {
+                        swal("Error!", error.Message, "error");
+                    }
+                });
+            }
+
+         }
+
+        function closeModal() {
+            $('#orderStatusid').val(0)
+            $('#question').val('')
+            $('#answer').val('')
+            window.location='@Url.Action(Actions.Index, Controllers.Faq)'
+        }
+
+        var getfaqId = new URLSearchParams(window.location.search);
+        getfaqId = parseInt((getfaqId.get('FaqId')));
+        var getIdfaq = ~~getfaqId;
+
+         function EditFaq(getfaqId) {
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action(Actions.GetFaqById, Controllers.Faq)',
+                data: { Id: getIdfaq},
+                dataType: 'json',
+                success: function (result) {
+                    $('#orderStatusid').val(result.Item.Id)
+                    var abc = (result.Item.ForFaq)
+                    $('input:radio[name="forfaq"][value="'+abc+'"]')
+                        .attr('checked', true);
+                    var question = $('#question').val(result.Item.Question)
+                    CKEDITOR.instances['question'].setData(question)
+                    var answer = $('#answer').val(result.Item.Answer)
+                    CKEDITOR.instances['answer'].setData(answer)
+                },
+                error: function (error) {
+
+                }
+            });
+        }
+    </script>
+
+    <script src="~/assets/validation/js/jquery-ui.min.js"></script>
+    <script src="~/assets/validation/js/app.min.js"></script>
+    <script src="~/assets/validation/js/ui-modals.min.js"></script>
+    <script src="~/assets/validation/js/jquery.validate.min.js"></script>
+    <script src="~/assets/validation/js/additional-methods.min.js"></script>
+    <script src="~/assets/validation/js/toastr.min.js"></script>
+    <script src="~/assets/validation/js/ui-toastr.min.js"></script>
+    <script src="~/assets/vendor/dropify/js/dropify.min.js"></script>
+    <script src="~/assets/vendor/sweetalert/sweetalert.min.js"></script> <!-- SweetAlert Plugin Js -->
+    <script src="~/assets/js/pages/forms/dropify.js"></script>
+    <script src="~/assets/js/pages/ui/dialogs.js"></script>
+}

@@ -1,0 +1,395 @@
+﻿@{
+    Layout = null;
+}
+
+@using TaxiAppAdmin.Pages;
+@using TaxiAppAdmin.Infrastructure;
+
+
+@Html.AntiForgeryToken()
+
+<style>
+
+ 
+</style>
+
+<!DOCTYPE html>
+
+<!-- =========================================================
+* Sneat - Bootstrap 5 HTML Admin Template - Pro | v1.0.0
+==============================================================
+
+* Product Page: https://themeselection.com/products/sneat-bootstrap-html-admin-template/
+* Created by: ThemeSelection
+* License: You must have a valid license purchased in order to legally use the theme for your project.
+* Copyright ThemeSelection (https://themeselection.com)
+
+=========================================================
+ -->
+<!-- beautify ignore:start -->
+<html lang="en"
+      class="light-style customizer-hide"
+      dir="ltr"
+      data-theme="theme-default"
+      data-assets-path="../assets/"
+      data-template="vertical-menu-template-free">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+
+    <title>HD Mart | Login </title>
+
+    <meta name="description" content="" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon/favicon.ico" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+          rel="stylesheet" />
+
+    <!-- Icons. Uncomment required icon fonts -->
+    <link rel="stylesheet" href="../assets/vendor/fonts/boxicons.css" />
+
+    <!-- Core CSS -->
+    <link rel="stylesheet" href="../assets/vendor/css/core.css" class="template-customizer-core-css" />
+    <link rel="stylesheet" href="../assets/vendor/css/theme-default.css" class="template-customizer-theme-css" />
+    <link rel="stylesheet" href="../assets/css/demo.css" />
+
+    <!-- Vendors CSS -->
+    <link rel="stylesheet" href="../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+
+    <!-- Page CSS -->
+    <!-- Page -->
+    <link rel="stylesheet" href="../assets/vendor/css/pages/page-auth.css" />
+    <!-- Helpers -->
+    <script src="../assets/vendor/js/helpers.js"></script>
+
+    <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
+    <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
+    <script src="../assets/js/config.js"></script>
+    <link href="~/assets/vendor/css/main.css" rel="stylesheet" />
+    <link href="~/assets/vendor/css/color_skins.css" rel="stylesheet" />
+    <script src="~/assets/validation/js/jquery.min.js"></script>
+    <script src="~/assets/validation/js/bootstrap.min.js"></script>
+    <script src="~/assets/validation/js/jquery.blockui.min.js"></script>
+
+</head>
+
+<body>
+    <!-- Content -->
+
+    <div class="container-xxl">
+        <div class="authentication-wrapper authentication-basic container-p-y">
+            <div class="authentication-inner">
+                <!-- Register -->
+                <div class="card">
+                    <div class="card-body">
+                        <!-- Logo -->
+                        <div class="app-brand justify-content-center">
+                            <a href="#" class="app-brand-link gap-2">
+                               
+                                <span class="demo fw-bolder" style=" font-size: 28px;">HD Mart</span>
+                            </a>
+                        </div>
+                        <!-- /Logo -->
+                        <h4 class="mb-2">Welcome to HD Mart! 👋</h4>
+                        <p class="mb-4">Please sign-in to your account</p>
+                        <h5 style="text-align:center;color:red;" id="wrgMsg"></h5>
+                       
+                        <form id="frmLogin" class="mb-3" @*action="index.html"*@ method="POST">
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email or Username</label>
+                                <input type="text" id="username" name="username" class="form-control" placeholder="Username" required="required" />
+
+                            </div>
+                            <div class="mb-3 form-password-toggle">
+                                <div class="d-flex justify-content-between">
+                                    <label class="form-label" for="password">Password</label>
+
+                                </div>
+                                <div class="input-group input-group-merge">
+                                    <input type="password" id="password" name="password" class="form-control" placeholder="Password" required="required" />
+                                    @*<span class="input-group-text cursor-pointer" id=" passwordCheckbox"><i class="bx bx-hide"></i></span>*@
+                                    <span id="toggle-password" class="input-group-text cursor-pointer password-toggle"><i id="changeclass" class="bx bx-hide"></i></span>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                @*<button class="btn btn-primary d-grid w-100" type="submit">Sign in</button>*@
+                                <button type="submit" id="btnLogin" class="btn btn-primary btn-lg btn-block">Sign in</button>
+                                <button style="display: none;" class="btn btn-primary btn-lg btn-block loading" type="button" id="btnLoginLoading" disabled>
+                                    <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                                    Sign in your account...
+                                </button>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+                <!-- /Register -->
+            </div>
+        </div>
+    </div>
+
+   
+    <!-- Core JS -->
+    <!-- build:js assets/vendor/js/core.js -->
+    <!--<script src="../assets/vendor/libs/jquery/jquery.js"></script>
+    <script src="../assets/vendor/libs/popper/popper.js"></script>
+    <script src="../assets/vendor/js/bootstrap.js"></script>
+    <script src="../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+
+    <script src="../assets/vendor/js/menu.js"></script>-->
+    <!-- endbuild -->
+    <!-- Vendors JS -->
+    <!-- Main JS -->
+    <!--<script src="../assets/js/main.js"></script>-->
+
+    <!-- Page JS -->
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <!--<script async defer src="https://buttons.github.io/buttons.js"></script>
+</body>
+</html>-->
+
+<!--<!doctype html>
+<html lang="en">
+
+
+<!-- Mirrored from www.wrraptheme.com/templates/lucid/hr/html/light/page-login.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 25 Feb 2020 06:21:05 GMT -->
+<!--<head>
+    <title>TaxiApp | Loginee</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="description" content="Dating Admin Login">
+    <meta name="author" content="">
+
+    <link rel="icon" href="~/favicon.ico" type="image/x-icon">-->
+<!-- VENDOR CSS -->
+<!--<link rel="stylesheet" href="~/assets/vendor/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="~/assets/vendor/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="~/assets/vendor/dropify/css/dropify.min.css">-->
+<!-- MAIN CSS -->
+<!--<link href="~/assets/vendor/css/main.css" rel="stylesheet" />
+    <link href="~/assets/vendor/css/color_skins.css" rel="stylesheet" />
+    <script src="~/assets/validation/js/jquery.min.js"></script>
+    <script src="~/assets/validation/js/bootstrap.min.js"></script>
+    <script src="~/assets/validation/js/jquery.blockui.min.js"></script>
+</head>
+
+<body class="theme-blue">
+
+    <div id="wrapper">
+        <div class="vertical-align-wrap">
+            <div class="vertical-align-middle auth-main">
+                <div class="auth-box">
+
+                    <div class="card">
+                        <div class="header" style="text-align:center !important;">
+                            <img src="~/assets/images/final_logo_NEW.png" style="width: 122px;" alt="Dating Admin Logo" class="img-responsive logo or_logo mobile_logo mb-2">
+                            <p class="lead">Login to your account</p>
+                        </div>
+                        <div class="body">
+                            <h5 style="text-align:center;color:red;" id="wrgMsg"></h5>
+                            <div class="form-auth-small">
+                                <form method="post" id="frmLogin" action="" class="text-left" role="form">
+
+
+                                    <div class="form-group">
+                                        <label for="UserName" class="control-label sr-only">Username</label>
+                                        <input type="text" id="username" name="username" class="form-control" placeholder="Username" required="required" />
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="signin-password" class="control-label sr-only">Password</label>
+                                        <input type="password" id="password" name="password" class="form-control" placeholder="Password" required="required" />
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input terms-conditions" tabindex="6" id="passwordCheckbox" name="passwordCheckbox">
+                                            <label class="custom-control-label text-muted" for="passwordCheckbox"> Show Password</label>
+                                        </div>
+                                    </div>
+                                    <button type="submit" id="btnLogin" class="btn btn-primary btn-lg btn-block">Sign in</button>
+                                    <button style="display: none;" class="btn btn-primary btn-lg btn-block loading" type="button" id="btnLoginLoading" disabled>
+                                        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                                        Sign in your account...
+                                    </button>
+
+
+                                </form>-->
+@*<div class="bottom">
+        <span>Don't have an account? <a href="@Url.Action(Actions.Signup,Controllers.Authentication)" style="color: #0069D9 !important;">Sign Up As A Dealer</a></span>
+    </div>*@
+                            @*</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->*@
+<!-- END WRAPPER -->
+<script>
+        jQuery(document).ready(function () {
+            $("#wrgMsg").hide();
+
+            FormValidation.init();
+
+            $('#toggle-password').click(function () {
+                const passwordInput = $('#password');
+                const isPasswordVisible = passwordInput.attr('type') === 'text';
+
+                passwordInput.attr('type', isPasswordVisible ? 'password' : 'text');
+                $(this).toggleClass('hide', !isPasswordVisible);
+            });
+
+        });
+        var FormValidation = function () {
+            debugger;
+            // basic validation
+            var handleValidation1 = function () {
+
+                var form1 = $('#frmLogin');
+                var error1 = $('.alert-danger', form1);
+                //var success1 = $('.alert-success', form1);
+
+                form1.validate({
+                    errorElement: 'span', //default input error message container
+                    errorClass: 'help-block help-block-error', // default input error message class
+                    focusInvalid: false, // do not focus the last invalid input
+                    ignore: "",  // validate all fields including form hidden input
+                    rules: {
+                        username: {
+                            required: true,
+                        },
+                        password: {
+                            required: true,
+                        }
+                    },
+                    messages: {
+                        username: {
+                            required: "Username is required",
+                        },
+                        password: {
+                            required: "Password is required",
+                        }
+                    },
+
+                    invalidHandler: function (event, validator) { //display error alert on form submit
+                        //success1.hide();
+                        error1.show();
+                        App.scrollTo(error1, -200);
+                    },
+
+                    errorPlacement: function (error, element) { // render error placement for each input type
+                        var cont = $(element).parent('.input-group');
+                        if (cont.size() > 0) {
+                            cont.after(error);
+                        } else {
+                            element.after(error);
+                        }
+                    },
+
+                    highlight: function (element) { // hightlight error inputs
+                        $(element)
+                            .closest('.form-group').addClass('has-error'); // set error class to the control group
+                    },
+
+                    unhighlight: function (element) { // revert the change done by hightlight
+                        $(element)
+                            .closest('.form-group').removeClass('has-error'); // set error class to the control group
+                    },
+
+                    success: function (label) {
+                        label
+                            .closest('.form-group').removeClass('has-error'); // set success class to the control group
+                    },
+
+                    submitHandler: function (form) {
+
+                        $("#btnLogin").hide();
+                        $("#btnLoginLoading").show();
+                        $.ajax({
+                            url: '@Url.Action(Actions.LogIn, Controllers.Account)',
+                            data: { username: $("#username").val(), password: $("#password").val() },
+                            type: "POST",
+                            dataType: "json",
+                            success: function (result) {
+                                $("#wrgMsg").hide();
+                                if (result.Code == 200) {
+                                    window.location.href = '@Url.Action(Actions.Index,Controllers.Home)';
+                                } else if (result.Code == 400 || result.Code == 403 || result.Code == 404) {
+                                    $("#btnLogin").show();
+                                    $("#wrgMsg").text(result.Message)
+                                    $("#wrgMsg").show();
+                                    $("#btnLoginLoading").hide();
+                                } else {
+                                    $("#btnLogin").show();
+                                    $("#wrgMsg").text("An error occured !")
+                                    $("#wrgMsg").show();
+                                    $("#btnLoginLoading").hide();
+                                }
+                            },
+                            error: function (result) {
+                                $("#btnLogin").show();
+                                $("#wrgMsg").text("An error occured !")
+                                $("#wrgMsg").show();
+                                $("#btnLoginLoading").hide();
+                            }
+                        });
+                    }
+                });
+            }
+
+            return {
+                //main function to initiate the module
+                init: function () {
+                    handleValidation1();
+                }
+            };
+        }();
+        $('#passwordCheckbox').change(function () {
+            if ($(this).is(':checked')) {
+                $('input[type="password"]').prop('type', 'text');
+                $("#changeclass").removeClass('bx bx-hide');
+                $("#changeclass").addClass('bx bx-show');
+
+            } else {
+                $('#password').prop('type', 'password');
+                $("#changeclass").removeClass('bx bx-show');
+                $("#changeclass").addClass('bx bx-hide');
+            }
+        });
+    </script>
+    <script src="~/assets/vendor/dropify/js/dropify.min.js"></script>
+    <script src="~/assets/js/pages/forms/dropify.js"></script>
+    <script src="~/assets/validation/js/jquery-ui.min.js"></script>
+    <script src="~/assets/validation/js/datatable.js"></script>
+    <script src="~/assets/validation/js/datatables.min.js"></script>
+    <script src="~/assets/validation/js/datatables.bootstrap.js"></script>
+    <script src="~/assets/validation/js/select2.full.min.js"></script>
+    <script src="~/assets/validation/js/app.min.js"></script>
+    <script src="~/assets/validation/js/ui-modals.min.js"></script>
+    <script src="~/assets/validation/js/table-datatables-buttons.min.js"></script>
+    <script src="~/assets/validation/js/components-bootstrap-switch.min.js"></script>
+    <script src="~/assets/validation/js/components-select2.min.js"></script>
+    <script src="~/assets/validation/js/moment.min.js"></script>
+    <script src="~/assets/validation/js/moment-with-locales.min.js"></script>
+    <script src="~/assets/validation/js/bootstrap-datetimepicker.min.js"></script>
+    <script src="~/assets/validation/js/bootstrap-datepicker.min.js"></script>
+    <script src="~/assets/validation/js/jquery.validate.min.js"></script>
+    <script src="~/assets/validation/js/additional-methods.min.js"></script>
+    <script src="~/assets/validation/js/toastr.min.js"></script>
+    <script src="~/assets/validation/js/ui-toastr.min.js"></script>
+    <script src="~/assets/validation/js/layout.min.js"></script>
+    <script src="~/assets/validation/js/demo.min.js"></script>
+    <script src="~/assets/validation/js/quick-sidebar.min.js"></script>
+    <script src="~/assets/validation/js/quick-nav.min.js"></script>
+    <script src="~/assets/validation/js/common.js"></script>
+</body>
+
+
+</html>

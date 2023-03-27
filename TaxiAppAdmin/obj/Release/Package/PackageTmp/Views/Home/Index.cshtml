@@ -1,0 +1,1989 @@
+﻿@using TaxiApp.Common;
+@using TaxiAppAdmin.Pages;
+@using System.Web.Optimization;
+@using TaxiAppAdmin.Infrastructure;
+
+@Html.AntiForgeryToken()
+
+@{
+    ViewBag.Title = "Dashboard";
+}
+
+<!-- Sales Card -->
+<div class="col-xxl-4 col-md-6">
+    <div class="card info-card sales-card">
+
+        <div class="filter">
+            <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
+            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                <li class="dropdown-header text-start">
+                    <h6>Filter</h6>
+                </li>
+
+                <li><a class="dropdown-item" href="#">Today</a></li>
+                <li><a class="dropdown-item" href="#">This Month</a></li>
+                <li><a class="dropdown-item" href="#">This Year</a></li>
+            </ul>
+        </div>
+
+        <div class="card-body">
+            <h5 class="card-title">Sales <span>| Today</span></h5>
+
+            <div class="d-flex align-items-center">
+                <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                    <i class="bi bi-cart"></i>
+                </div>
+                <div class="ps-3">
+                    <h6>145</h6>
+                    <span class="text-success small pt-1 fw-bold">12%</span> <span class="text-muted small pt-2 ps-1">increase</span>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    @section dashboardscripts{
+        <script src="~/Scripts/jquery-ui.min.js"></script>
+        <script src="~/Scripts/datatable.js"></script>
+        <script src="~/Scripts/datatables.min.js"></script>
+        <script src="~/Scripts/datatables.bootstrap.js"></script>
+    }
+    @section Scripts {
+
+        <script>
+        $(document).ready(() => {
+            //DriverDataTable.init();
+            //CustomerDataTable.init();
+            //TripDataTable.init();
+            //AssignedTripsDataTable.init();
+            //UnAssignedTripsDataTable.init();
+            //RejectedTripsDataTable.init();
+            //ConfirmedTripsDataTable.init();
+            //CompletedTripsDataTable.init();
+
+
+        });
+
+
+   
+        // Driver
+        var DriverDataTable = function () {
+
+                let initTable1 = function () {
+                    let table = $('#DriverTable');
+
+                    let oTable = table.dataTable({
+                        "stateSave": true,
+                        "autoWidth": false,
+                        "paging": true,
+                        // Internationalisation. For more info refer to http://datatables.net/manual/i18n
+                        "language": {
+                            "aria": {
+                                "sortAscending": ": activate to sort column ascending",
+                                "sortDescending": ": activate to sort column descending"
+                            },
+                            "emptyTable": "No data available in table",
+                            "info": "Showing _START_ to _END_ of _TOTAL_ entries",
+                            "infoEmpty": "No entries found",
+                            "infoFiltered": "(filtered1 from _MAX_ total entries)",
+                            "lengthMenu": "_MENU_ entries",
+                            "search": "Search:",
+                            "zeroRecords": "No matching records found"
+                        },
+                        "pageLength": 10,
+                        "processing": true,
+                        "serverSide": true,
+                        "ajax": {
+                            async: true,
+                            url: '@Url.Action(Actions.ViewAllData, Controllers.Driver)',
+                            type: "post",
+                            data: BuildSearchDriverCriteria(),
+                    },
+                    "columns": [
+                        {
+                            "title": "Profile", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                if (row["ProfilePicture"] == "" || row["ProfilePicture"] == null) {
+                                    htmlData = `<img onerror="DefaultImage(this);" class="rounded-circle round-img-table profile-size" src="${'@Configurations.ApiUrl' + row["ProfilePicture"]}">`;
+                                } else {
+                                    htmlData = `<a href="${'@Configurations.ApiUrl' + row["ProfilePicture"]}" target="_blank"><img onerror="DefaultImage(this);" class="rounded-circle round-img-table profile-size" src="${'@Configurations.ApiUrl' + row["ProfilePicture"]}"></a>`;
+                                }
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Driver Details", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData += `<p class="mb-0"><b>Name : </b>${row["FirstName"] + " " + row["LastName"]}</p>`;
+                                htmlData += `<p class="mb-0"><b>Email : </b><a class="c-text-primary" href="mailto:${row["Email"]}">${row["Email"]}</a></p>`;
+                                htmlData += `<p class="mb-0"><b>Gender : </b > ${ row["Gender"] == "" || row["Gender"] == null ? '-' : row["Gender"] }</p >`;
+                                htmlData += `<p class="mb-0"><b>Phone : </b>${row["MobileNo"] == "" || row["MobileNo"] == null ? '-' : `<a class="c-text-primary" href="tel:${row["MobileNo"]}">${row["MobileNo"]}</a>` }</p>`;
+                                htmlData += `<p class="mb-0"><b>DOB : </b>${row["DOB"] == "" || row["DOB"] == null ? '-' : row["DOB"]}</p>`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Created Date", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData = `${row["CreatedDateStr"] == "" || row["CreatedDateStr"] == null ? '-' : row["CreatedDateStr"]}`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Update Date", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData = `${row["UpdatedDateStr"] == "" || row["UpdatedDateStr"] == null ? '-' : row["UpdatedDateStr"]}`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Last Login", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData = `${row["LastLogin"] == "" || row["LastLogin"] == null ? '-' : row["LastLogin"]}`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Is Active  ?", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                if (row["IsActive"] == 1) {
+                                    htmlData = `<button onclick="InactiveMessage('${btoa(row["Id"])}');" class="badge badge-primary">Active</button>`;
+                                } else {
+                                    htmlData = `<button onclick="ActiveMessage('${btoa(row["Id"])}');" class="badge badge-danger">In-Active</button>`;
+                                }
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Action", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                if (row["TripCount"] > 0) {
+                                    htmlData = `<a href="@Url.Action(Actions.TripDetails,Controllers.Driver)?DriverId=${btoa(row["Id"])}"><button class="badge badge-primary"><span class="mr-2">Total Trips</span>${row["TripCount"]}</button></a>`;
+                                }
+                                    else {
+                                    htmlData = `<button class="badge badge-primary"><span class="mr-2">Total Trips</span>${row["TripCount"]}</button></a>`;
+                                }
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                    ],
+                    // setup buttons extentension: http://datatables.net/extensions/buttons/
+                        "buttons": [
+                            {
+                                text: 'Filters',
+                                className: 'them-btn',
+                                action: function (e, dt, node, config) {
+                                    OpenDriverFiltersPopup();
+                                }
+                            },
+                            {
+                                text: 'Reset',
+                                className: 'them-reset-btn',
+                                action: function () {
+                                    DriverSearchReset(true)
+                                }
+                            }
+                            //{ extend: 'excel', className: 'them-btn' }
+                        ],
+
+                        // setup responsive extension: http://datatables.net/extensions/responsive/
+                        responsive: true,
+
+                        "lengthMenu": [
+                            [5, 10, 15, 20, 1000],
+                            [5, 10, 15, 20, 1000] // change per page values here
+                        ],
+                        // set the initial value
+
+                        "dom": "<'row' <'col-md-12'B>><'row'<'col-md-6 col-sm-12'l><'col-md-6 col-sm-12'f>r><'table-scrollable't><'row'<'col-md-5 col-sm-12'i><'col-md-7 col-sm-12'p>>", // horizobtal scrollable datatable
+
+                        // Uncomment below line("dom" parameter) to fix the dropdown overflow issue in the datatable cells. The default datatable layout
+                        // setup uses scrollable div(table-scrollable) with overflow:auto to enable vertical scroll(see: assets/global/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.js).
+                        // So when dropdowns used the scrollable div should be removed.
+                        //"dom": "<'row' <'col-md-12'T>><'row'<'col-md-6 col-sm-12'l><'col-md-6 col-sm-12'f>r>t<'row'<'col-md-5 col-sm-12'i><'col-md-7 col-sm-12'p>>",
+                    });
+                }
+
+                return {
+                    //main function to initiate the module
+                    init: function () {
+                        if ($.fn.DataTable.isDataTable("#DriverTable")) {
+                            $('#DriverTable').dataTable().fnDestroy();
+                            $('#divDriverTable').html('<table class="table table-striped" width="100%" id="DriverTable"></table>');
+                        }
+                        initTable1();
+                    }
+                };
+        }();
+        const OpenDriverFiltersPopup = () => {
+            $("#DriverFilterPopup").modal("show");
+            $('#DriverSearchStatus').val(2);
+        }
+        const DriverSearchReset = (isReset = false) => {
+            if (isReset == true) {
+                $("#DriverSearchGender").val("");
+                $("#DriverSearchStatus").val(2);
+            }
+           DriverDataTable.init();
+            $("#DriverFilterPopup").modal("hide");
+        }
+        function BuildSearchDriverCriteria() {
+            try {
+                var param = {};
+                debugger;
+                param["IsActiveForFilter"] = $("#DriverSearchStatus").val();
+                param["Gender"] = $("#SearchDriverGender").val();
+                return addRequestVerificationToken(param);
+            } catch (e) { }
+        }
+        function addRequestVerificationToken(data) {
+            data.__RequestVerificationToken = $('input[name=__RequestVerificationToken]').val();
+            return data;
+        }
+
+        // Customer
+        var CustomerDataTable = function () {
+
+                let initTable1 = function () {
+                    let table = $('#CustomerTable');
+
+                    let oTable = table.dataTable({
+                        "stateSave": true,
+                        "autoWidth": false,
+                        "paging": true,
+                        // Internationalisation. For more info refer to http://datatables.net/manual/i18n
+                        "language": {
+                            "aria": {
+                                "sortAscending": ": activate to sort column ascending",
+                                "sortDescending": ": activate to sort column descending"
+                            },
+                            "emptyTable": "No data available in table",
+                            "info": "Showing _START_ to _END_ of _TOTAL_ entries",
+                            "infoEmpty": "No entries found",
+                            "infoFiltered": "(filtered1 from _MAX_ total entries)",
+                            "lengthMenu": "_MENU_ entries",
+                            "search": "Search:",
+                            "zeroRecords": "No matching records found"
+                        },
+                        "pageLength": 10,
+                        "processing": true,
+                        "serverSide": true,
+                        "ajax": {
+                            async: true,
+                            url: '@Url.Action(Actions.ViewAllData, Controllers.Customer)',
+                            type: "post",
+                            data: BuildCustomerSearchCriteria(),
+                    },
+                    "columns": [
+                        {
+                            "title": "Profile", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                if (row["ProfilePicture"] == "" || row["ProfilePicture"] == null) {
+                                    htmlData = `<img onerror="DefaultImage(this);" class="rounded-circle round-img-table profile-size" src="${'@Configurations.ApiUrl' + row["ProfilePicture"]}">`;
+                                } else {
+                                    htmlData = `<a href="${'@Configurations.ApiUrl' + row["ProfilePicture"]}" target="_blank"><img onerror="DefaultImage(this);" class="rounded-circle round-img-table profile-size" src="${'@Configurations.ApiUrl' + row["ProfileUrl"]}"></a>`;
+                                }
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Customer Details", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData += `<p class="mb-0"><b>Name : </b>${row["FirstName"] + " " + row["LastName"]}</p>`;
+                                htmlData += `<p class="mb-0"><b>Email : </b><a class="c-text-primary" href="mailto:${row["Email"]}">${row["Email"]}</a></p>`;
+                                htmlData += `<p class="mb-0"><b>Gender : </b > ${ row["Gender"] == "" || row["Gender"] == null ? '-' : row["Gender"] }</p >`;
+                                htmlData += `<p class="mb-0"><b>Phone : </b>${row["MobileNo"] == "" || row["MobileNo"] == null ? '-' : `<a class="c-text-primary" href="tel:${row["MobileNo"]}">${row["MobileNo"]}</a>` }</p>`;
+                                htmlData += `<p class="mb-0"><b>DOB : </b>${row["DOB"] == "" || row["DOB"] == null ? '-' : row["DOB"]}</p>`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Created Date", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData = `${row["CreatedDateStr"] == "" || row["CreatedDateStr"] == null ? '-' : row["CreatedDateStr"]}`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Update Date", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData = `${row["UpdatedDateStr"] == "" || row["UpdatedDateStr"] == null ? '-' : row["UpdatedDateStr"]}`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Last Login", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData = `${row["LastLogin"] == "" || row["LastLogin"] == null ? '-' : row["LastLogin"]}`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Is Active ?", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                if (row["IsActive"] == 1) {
+                                    htmlData = `<button onclick="InactiveMessageCustomer('${btoa(row["Id"])}');" class="badge badge-primary">Active</button>`;
+                                } else {
+                                    htmlData = `<button onclick="ActiveMessageCustomer('${btoa(row["Id"])}');" class="badge badge-danger">In-Active</button>`;
+                                }
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Action", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                if (row["TripCount"] > 0) {
+                                    htmlData = `<a href="@Url.Action(Actions.TripDetails,Controllers.Customer)?CustomerId=${btoa(row["Id"])}"><button class="badge badge-primary"><span class="mr-2">Total Trips</span>${row["TripCount"]}</button></a>`;
+                                }
+                                    else {
+                                    htmlData = `<button class="badge badge-primary"><span class="mr-2">Total Trips</span>${row["TripCount"]}</button></a>`;
+                                }
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                    ],
+                    // setup buttons extentension: http://datatables.net/extensions/buttons/
+                        "buttons": [
+                            {
+                                text: 'Filters',
+                                className: 'them-btn',
+                                action: function (e, dt, node, config) {
+                                    OpenCustomerFiltersPopup();
+                                }
+                            },
+                            {
+                                text: 'Reset',
+                                className: 'them-reset-btn',
+                                action: function () {
+                                    SearchCustomerReset(true)
+                                }
+                            }
+                            //{ extend: 'excel', className: 'them-btn' }
+                        ],
+
+                        // setup responsive extension: http://datatables.net/extensions/responsive/
+                        responsive: true,
+
+                        "lengthMenu": [
+                            [5, 10, 15, 20, 1000],
+                            [5, 10, 15, 20, 1000] // change per page values here
+                        ],
+                        // set the initial value
+
+                        "dom": "<'row' <'col-md-12'B>><'row'<'col-md-6 col-sm-12'l><'col-md-6 col-sm-12'f>r><'table-scrollable't><'row'<'col-md-5 col-sm-12'i><'col-md-7 col-sm-12'p>>", // horizobtal scrollable datatable
+
+                        // Uncomment below line("dom" parameter) to fix the dropdown overflow issue in the datatable cells. The default datatable layout
+                        // setup uses scrollable div(table-scrollable) with overflow:auto to enable vertical scroll(see: assets/global/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.js).
+                        // So when dropdowns used the scrollable div should be removed.
+                        //"dom": "<'row' <'col-md-12'T>><'row'<'col-md-6 col-sm-12'l><'col-md-6 col-sm-12'f>r>t<'row'<'col-md-5 col-sm-12'i><'col-md-7 col-sm-12'p>>",
+                    });
+                }
+
+                return {
+                    //main function to initiate the module
+                    init: function () {
+                        if ($.fn.DataTable.isDataTable("#CustomerTable")) {
+                            $('#CustomerTable').dataTable().fnDestroy();
+                            $('#divCustomerTable').html('<table class="table table-striped" width="100%" id="CustomerTable"></table>');
+                        }
+                        initTable1();
+                    }
+                };
+        }();
+        const SearchCustomerReset = (isReset = false) => {
+            if (isReset == true) {
+                $("#SearchCustomerGender").val("");
+                $("#SearchCustomerStatus").val(2);
+            }
+            CustomerDataTable.init();
+            $("#CustomerFilterPopup").modal("hide");
+        }
+        const OpenCustomerFiltersPopup = () => {
+            $('#SearchCustomerStatus').val(2);
+            $('#SearchCustomerGender').val('');
+            $("#CustomerFilterPopup").modal("show");
+        }
+        function BuildCustomerSearchCriteria() {
+            try {
+                var param = {};
+                param["IsActiveForFilter"] = $("#SearchCustomerStatus").val();
+                param["Gender"] = $("#SearchCustomerGender").val();
+                return addRequestVerificationToken(param);
+            } catch (e) { }
+        }
+
+        // Trip
+        var TripDataTable = function () {
+
+                let initTable1 = function () {
+                    let table = $('#TripTable');
+
+                    let oTable = table.dataTable({
+                        "stateSave": true,
+                        "autoWidth": false,
+                        "paging": true,
+                        // Internationalisation. For more info refer to http://datatables.net/manual/i18n
+                        "language": {
+                            "aria": {
+                                "sortAscending": ": activate to sort column ascending",
+                                "sortDescending": ": activate to sort column descending"
+                            },
+                            "emptyTable": "No data available in table",
+                            "info": "Showing _START_ to _END_ of _TOTAL_ entries",
+                            "infoEmpty": "No entries found",
+                            "infoFiltered": "(filtered1 from _MAX_ total entries)",
+                            "lengthMenu": "_MENU_ entries",
+                            "search": "Search:",
+                            "zeroRecords": "No matching records found"
+                        },
+                        "pageLength": 10,
+                        "processing": true,
+                        "serverSide": true,
+                        "ajax": {
+                            async: true,
+                            url: '@Url.Action(Actions.ViewAllData, Controllers.Trip)',
+                            type: "post",
+                            data: BuildTripSearchCriteria(),
+                    },
+                    "columns": [
+                        {
+                            "title": "Trip Details", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData += `<p class="mb-0 text-truncate" title="${row["PickUpDateStr"]}"><b>TripDate: </b>${row["PickUpDateStr"]}</p>`;
+                                htmlData += `<p class="mb-0 text-truncate" title="${row["PickUpTimeStr"]}"><b>TripTime: </b>${row["PickUpTimeStr"]}</p>`;
+                                htmlData += `<p class="mb-0 text-truncate " title="${row["PickUpAddress"]}"><b>PickUpAddress : </b>
+                                    <a target="_balnk" class="c-text-primary" href="https://www.google.com/maps/?q=${row["PickUpLat"]},${row["PickUpLong"]}">${row["PickUpAddress"] == "" || row["PickUpAddress"] == null ? '-' : row["PickUpAddress"]}</a>
+                                </p>`;
+                                htmlData += `<p class="mb-0 text-truncate " title="${row["DropOffAddress"]}"><b>DropOffAddress : </b>
+                                    <a target="_balnk" class="c-text-primary" href="https://www.google.com/maps/?q=${row["DropOffLat"]},${row["DropOffLong"]}">${row["PickUpAddress"] == "" || row["DropOffAddress"] == null ? '-' : row["DropOffAddress"]}</a>
+                                </p>`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Customer Details", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData += `<p class="mb-0"><b>Country : </b>${row["CustomerCountry"] == "" || row["CustomerCountry"] == null ? '-' : row["CustomerCountry"]}</p>`;
+                                htmlData += `<p class="mb-0"><b>State : </b>${row["CustomerState"] == "" || row["CustomerState"] == null ? '-' : row["CustomerState"]}</p>`;
+                                htmlData += `<p class="mb-0"><b>City : </b>${row["CustomerCity"] == "" || row["CustomerCity"] == null ? '-' : row["CustomerCity"]}</p>`;
+                                htmlData += `<p class="mb-0"><b>MobileNo: </b>${row["CustomerMobileNo"] == "" || row["CustomerMobileNo"] == null ? '-' : row["CustomerMobileNo"]}</p>`;
+                                htmlData += `<p class="mb-0"><b>ZipCode : </b>${row["CustomerPinCode"] == "" || row["CustomerPinCode"] == null ? '-' : row["CustomerPinCode"]}</p>`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Driver Details", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData += `<p class="mb-0"><b>Name : </b>${row["AssignedDriverName"] == "" || row["AssignedDriverName"] == null ? '-' : row["AssignedDriverName"]}</p>`;
+                                htmlData += `<p class="mb-0"><b>MobileNo : </b>${row["AssignedDriverMobileNo"] == "" || row["AssignedDriverMobileNo"] == null ? '-' : row["AssignedDriverMobileNo"]}</p>`;
+                                htmlData += `<p class="mb-0"><b>VehicleNo : </b>${row["AssignedDriverVehicleNo"] == "" || row["AssignedDriverVehicleNo"] == null ? '-' : row["AssignedDriverVehicleNo"]}</p>`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Created Date", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData = `${row["CreatedDateStr"] == "" || row["CreatedDateStr"] == null ? '-' : row["CreatedDateStr"]}`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Customer Ratings", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData = `${row["TripRatingByCustomer"] == "" || row["TripRatingByCustomer"] == null ? '-' : row["TripRatingByCustomer"]}`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Driver Ratings", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData = `${row["TripRatingByDriver"] == "" || row["TripRatingByDriver"] == null ? '-' : row["TripRatingByDriver"]}`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Customer Remarks", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData = `${row["TripRemarksByCustomer"] == "" || row["TripRemarksByCustomer"] == null ? '-' : row["TripRemarksByCustomer"]}`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Status", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                if (row["TripStatusId"] == 1) {
+                                    htmlData = `<button class="badge badge-success">Approval Pending</button>`;
+                                } else if (row["TripStatusId"] == 2) {
+                                    htmlData = `<button class="badge badge-danger">Rejected</button>`;
+                                } else if (row["TripStatusId"] == 3) {
+                                    htmlData = `<button class="badge badge-primary">Approved</button>`;
+                                } else if (row["TripStatusId"] == 4) {
+                                    htmlData = `<button class="badge badge-primary">Confirmed</button>`;
+                                } else if (row["TripStatusId"] == 5) {
+                                    htmlData = `<button class="badge badge-primary">Completed</button>`;
+                                }
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        //{
+                        //    "title": "Action", "data": "",
+                        //    "render": function (data, type, row) {
+                        //        let htmlData = "";
+                        //        if (row["TripStatusId"] == 2 || row["TripStatusId"] == 5) {
+                        //            htmlData += `-`;
+                        //        }
+                        //        else {
+                        //            htmlData += `<button class="btn btn-primary mr-1" onclick="changeStatus(${(row["Id"])});">Change Trip Status</button>`;
+                        //        }
+
+                        //        return htmlData;
+                        //    }
+                        //    , "orderable": false, "width": "3%"
+                        //},
+                        //{
+                        //    "title": "Assigned Driver:", "data": "",
+                        //    "render": function (data, type, row) {
+                        //        let htmlData = "";
+                        //        if (row["AssignedId"] > 0) {
+                        //            htmlData += `-`;
+                        //        }
+                        //        else {
+                        //            htmlData += `<button class="btn btn-primary mr-1" onclick="assignedDriver(${(row["Id"])});">Assigned Driver</button>`;
+                        //        }
+                        //        return htmlData;
+                        //    }
+                        //    , "orderable": false, "width": "3%"
+                        //},
+                    ],
+                    // setup buttons extentension: http://datatables.net/extensions/buttons/
+                        "buttons": [
+                            {
+                                text: 'Filters',
+                                className: 'them-btn',
+                                action: function (e, dt, node, config) {
+                                    OpenTripFiltersPopup();
+                                }
+                            },
+                            {
+                                text: 'Reset',
+                                className: 'them-reset-btn',
+                                action: function () {
+                                    SearchTripReset(true)
+                                }
+                            }
+                            //{ extend: 'excel', className: 'them-btn' }
+                        ],
+
+                        // setup responsive extension: http://datatables.net/extensions/responsive/
+                        responsive: true,
+
+                        "lengthMenu": [
+                            [5, 10, 15, 20, 1000],
+                            [5, 10, 15, 20, 1000] // change per page values here
+                        ],
+                        // set the initial value
+
+                        "dom": "<'row' <'col-md-12'B>><'row'<'col-md-6 col-sm-12'l><'col-md-6 col-sm-12'f>r><'table-scrollable't><'row'<'col-md-5 col-sm-12'i><'col-md-7 col-sm-12'p>>", // horizobtal scrollable datatable
+
+                        // Uncomment below line("dom" parameter) to fix the dropdown overflow issue in the datatable cells. The default datatable layout
+                        // setup uses scrollable div(table-scrollable) with overflow:auto to enable vertical scroll(see: assets/global/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.js).
+                        // So when dropdowns used the scrollable div should be removed.
+                        //"dom": "<'row' <'col-md-12'T>><'row'<'col-md-6 col-sm-12'l><'col-md-6 col-sm-12'f>r>t<'row'<'col-md-5 col-sm-12'i><'col-md-7 col-sm-12'p>>",
+                    });
+                }
+
+                return {
+                    //main function to initiate the module
+                    init: function () {
+                        if ($.fn.DataTable.isDataTable("#TripTable")) {
+                            $('#TripTable').dataTable().fnDestroy();
+                            $('#divTripTable').html('<table class="table table-striped" width="100%" id="TripTable"></table>');
+                        }
+                        initTable1();
+                    }
+                };
+        }();
+        const OpenTripFiltersPopup = () => {
+            $("#TripFilterPopup").modal("show");
+            $("#toDate").val('');
+            $("#fromTime").val('');
+            $("#fromDate").val('');
+            $("#toTime").val('');
+        }
+        function BuildTripSearchCriteria() {
+            try {
+                var param = {};
+                param["TripStatusId"] = $("#changetripstatus").val();
+                param["TripDateFrom"] = $("#fromDate").val();
+                param["TripDateTo"] = $("#toDate").val();
+                param["TripTimeFrom"] = $("#fromTime").val();
+                param["TripTimeTo"] = $("#toTime").val();
+                return addRequestVerificationToken(param);
+            } catch (e) { }
+        }
+        const SearchTripReset = (isReset = false) => {
+            if (isReset == true) {
+                $("#changetripstatus").val("");
+                $("#toDate").val("");
+                $("#fromTime").val("");
+                $("#fromDate").val("");
+                $("#toTime").val("");
+            }
+            TripDataTable.init();
+            $("#TripFilterPopup").modal("hide");
+        }
+
+        // Assigned
+        var AssignedTripsDataTable = function () {
+
+                let initTable1 = function () {
+                    let table = $('#AssignedTrips');
+
+                    let oTable = table.dataTable({
+                        "stateSave": true,
+                        "autoWidth": false,
+                        "paging": true,
+                        // Internationalisation. For more info refer to http://datatables.net/manual/i18n
+                        "language": {
+                            "aria": {
+                                "sortAscending": ": activate to sort column ascending",
+                                "sortDescending": ": activate to sort column descending"
+                            },
+                            "emptyTable": "No data available in table",
+                            "info": "Showing _START_ to _END_ of _TOTAL_ entries",
+                            "infoEmpty": "No entries found",
+                            "infoFiltered": "(filtered1 from _MAX_ total entries)",
+                            "lengthMenu": "_MENU_ entries",
+                            "search": "Search:",
+                            "zeroRecords": "No matching records found"
+                        },
+                        "pageLength": 10,
+                        "processing": true,
+                        "serverSide": true,
+                        "ajax": {
+                            async: true,
+                            url: '@Url.Action(Actions.ViewAllAssignedTripData, Controllers.Home)',
+                            type: "post",
+                            data: BuildAssignedSearchCriteria(),
+                    },
+                    "columns": [
+                        {
+                            "title": "Trip Details", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData += `<p class="mb-0 text-truncate" title="${row["PickUpDate"]}"><b>TripDate: </b>${row["PickUpDate"]}</p>`;
+                                htmlData += `<p class="mb-0 text-truncate" title="${row["PickUpTime"]}"><b>TripTime: </b>${row["PickUpTime"]}</p>`;
+                                htmlData += `<p class="mb-0 text-truncate " title="${row["PickUpAddress"]}"><b>PickUpAddress : </b>
+                                    <a target="_balnk" class="c-text-primary" href="https://www.google.com/maps/?q=${row["PickUpLat"]},${row["PickUpLong"]}">${row["PickUpAddress"] == "" || row["PickUpAddress"] == null ? '-' : row["PickUpAddress"]}</a>
+                                </p>`;
+                                htmlData += `<p class="mb-0 text-truncate " title="${row["DropOffAddress"]}"><b>DropOffAddress : </b>
+                                    <a target="_balnk" class="c-text-primary" href="https://www.google.com/maps/?q=${row["DropOffLat"]},${row["DropOffLong"]}">${row["PickUpAddress"] == "" || row["DropOffAddress"] == null ? '-' : row["DropOffAddress"]}</a>
+                                </p>`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Customer Details", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData += `<p class="mb-0"><b>Country : </b>${row["CustomerCountry"] == "" || row["CustomerCountry"] == null ? '-' : row["CustomerCountry"]}</p>`;
+                                htmlData += `<p class="mb-0"><b>State : </b>${row["CustomerState"] == "" || row["CustomerState"] == null ? '-' : row["CustomerState"]}</p>`;
+                                htmlData += `<p class="mb-0"><b>City : </b>${row["CustomerCity"] == "" || row["CustomerCity"] == null ? '-' : row["CustomerCity"]}</p>`;
+                                htmlData += `<p class="mb-0"><b>MobileNo: </b>${row["CustomerMobileNo"] == "" || row["CustomerMobileNo"] == null ? '-' : row["CustomerMobileNo"]}</p>`;
+                                htmlData += `<p class="mb-0"><b>ZipCode : </b>${row["CustomerPinCode"] == "" || row["CustomerPinCode"] == null ? '-' : row["CustomerPinCode"]}</p>`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Driver Details", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData += `<p class="mb-0"><b>Name : </b>${row["AssignedDriverName"] == "" || row["AssignedDriverName"] == null ? '-' : row["AssignedDriverName"]}</p>`;
+                                htmlData += `<p class="mb-0"><b>MobileNo : </b>${row["AssignedDriverMobileNo"] == "" || row["AssignedDriverMobileNo"] == null ? '-' : row["AssignedDriverMobileNo"]}</p>`;
+                                htmlData += `<p class="mb-0"><b>VehicleNo : </b>${row["AssignedDriverVehicleNo"] == "" || row["AssignedDriverVehicleNo"] == null ? '-' : row["AssignedDriverVehicleNo"]}</p>`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Created Date", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData = `${row["CreatedDateStr"] == "" || row["CreatedDateStr"] == null ? '-' : row["CreatedDateStr"]}`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Customer Ratings", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData = `${row["TripRatingByCustomer"] == "" || row["TripRatingByCustomer"] == null ? '-' : row["TripRatingByCustomer"]}`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Driver Ratings", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData = `${row["TripRatingByDriver"] == "" || row["TripRatingByDriver"] == null ? '-' : row["TripRatingByDriver"]}`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Customer Remarks", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData = `${row["TripRemarksByCustomer"] == "" || row["TripRemarksByCustomer"] == null ? '-' : row["TripRemarksByCustomer"]}`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Status", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                if (row["TripStatusId"] == 1) {
+                                    htmlData = `<button class="badge badge-success">Approval Pending</button>`;
+                                } else if (row["TripStatusId"] == 2) {
+                                    htmlData = `<button class="badge badge-danger">Rejected</button>`;
+                                } else if (row["TripStatusId"] == 3) {
+                                    htmlData = `<button class="badge badge-primary">Approved</button>`;
+                                } else if (row["TripStatusId"] == 4) {
+                                    htmlData = `<button class="badge badge-primary">Confirmed</button>`;
+                                } else if (row["TripStatusId"] == 5) {
+                                    htmlData = `<button class="badge badge-primary">Completed</button>`;
+                                }
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        //{
+                        //    "title": "Action", "data": "",
+                        //    "render": function (data, type, row) {
+                        //        let htmlData = "";
+                        //        if (row["TripStatusId"] == 2 || row["TripStatusId"] == 5) {
+                        //            htmlData += `-`;
+                        //        }
+                        //        else {
+                        //            htmlData += `<button class="btn btn-primary mr-1" onclick="changeStatus(${(row["Id"])});">Change Trip Status</button>`;
+                        //        }
+
+                        //        return htmlData;
+                        //    }
+                        //    , "orderable": false, "width": "3%"
+                        //},
+                        //{
+                        //    "title": "Assigned Driver:", "data": "",
+                        //    "render": function (data, type, row) {
+                        //        let htmlData = "";
+                        //        if (row["AssignedId"] > 0) {
+                        //            htmlData += `-`;
+                        //        }
+                        //        else {
+                        //            htmlData += `<button class="btn btn-primary mr-1" onclick="assignedDriver(${(row["Id"])});">Assigned Driver</button>`;
+                        //        }
+                        //        return htmlData;
+                        //    }
+                        //    , "orderable": false, "width": "3%"
+                        //},
+                    ],
+                    // setup buttons extentension: http://datatables.net/extensions/buttons/
+                        "buttons": [
+                            {
+                                text: 'Filters',
+                                className: 'them-btn',
+                                action: function (e, dt, node, config) {
+                                    OpenAssignedFiltersPopup();
+                                }
+                            },
+                            {
+                                text: 'Reset',
+                                className: 'them-reset-btn',
+                                action: function () {
+                                    SearchAssignedReset(true)
+                                }
+                            }
+                            //{ extend: 'excel', className: 'them-btn' }
+                        ],
+
+                        // setup responsive extension: http://datatables.net/extensions/responsive/
+                        responsive: true,
+
+                        "lengthMenu": [
+                            [5, 10, 15, 20, 1000],
+                            [5, 10, 15, 20, 1000] // change per page values here
+                        ],
+                        // set the initial value
+
+                        "dom": "<'row' <'col-md-12'B>><'row'<'col-md-6 col-sm-12'l><'col-md-6 col-sm-12'f>r><'table-scrollable't><'row'<'col-md-5 col-sm-12'i><'col-md-7 col-sm-12'p>>", // horizobtal scrollable datatable
+
+                        // Uncomment below line("dom" parameter) to fix the dropdown overflow issue in the datatable cells. The default datatable layout
+                        // setup uses scrollable div(table-scrollable) with overflow:auto to enable vertical scroll(see: assets/global/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.js).
+                        // So when dropdowns used the scrollable div should be removed.
+                        //"dom": "<'row' <'col-md-12'T>><'row'<'col-md-6 col-sm-12'l><'col-md-6 col-sm-12'f>r>t<'row'<'col-md-5 col-sm-12'i><'col-md-7 col-sm-12'p>>",
+                    });
+                }
+
+                return {
+                    //main function to initiate the module
+                    init: function () {
+                        if ($.fn.DataTable.isDataTable("#AssignedTrips")) {
+                            $('#AssignedTrips').dataTable().fnDestroy();
+                            $('#divAssignedTripsTable').html('<table class="table table-striped" width="100%" id="AssignedTrips"></table>');
+                        }
+                        initTable1();
+                    }
+                };
+        }();
+        const OpenAssignedFiltersPopup = () => {
+            $("#AssignedFilterPopup").modal("show");
+            $("#assignedtoDate").val("");
+            $("#assignedfromTime").val("");
+            $("#assignedfromDate").val("");
+            $("#assignedtoTime").val("")
+        }
+        function BuildAssignedSearchCriteria() {
+            try {
+                var param = {};
+                param["TripStatusId"] = $("#changetripstatus").val();
+                param["TripDateFrom"] = $("#assignedfromDate").val();
+                param["TripDateTo"] = $("#assignedtoDate").val();
+                param["TripTimeFrom"] = $("#assignedfromTime").val();
+                param["TripTimeTo"] = $("#assignedtoTime").val();
+                return addRequestVerificationToken(param);
+            } catch (e) { }
+        }
+        const SearchAssignedReset = (isReset = false) => {
+            if (isReset == true) {
+                $("#changetripstatus").val("");
+                $("#assignedtoDate").val("");
+                $("#assignedfromTime").val("");
+                $("#assignedfromDate").val("");
+                $("#assignedtoTime").val("");
+            }
+            AssignedTripsDataTable.init();
+            $("#AssignedFilterPopup").modal("hide");
+        }
+
+        //unassign
+        var UnAssignedTripsDataTable = function () {
+
+                let initTable1 = function () {
+                    let table = $('#UnAssignedTrips');
+
+                    let oTable = table.dataTable({
+                        "stateSave": true,
+                        "autoWidth": false,
+                        "paging": true,
+                        // Internationalisation. For more info refer to http://datatables.net/manual/i18n
+                        "language": {
+                            "aria": {
+                                "sortAscending": ": activate to sort column ascending",
+                                "sortDescending": ": activate to sort column descending"
+                            },
+                            "emptyTable": "No data available in table",
+                            "info": "Showing _START_ to _END_ of _TOTAL_ entries",
+                            "infoEmpty": "No entries found",
+                            "infoFiltered": "(filtered1 from _MAX_ total entries)",
+                            "lengthMenu": "_MENU_ entries",
+                            "search": "Search:",
+                            "zeroRecords": "No matching records found"
+                        },
+                        "pageLength": 10,
+                        "processing": true,
+                        "serverSide": true,
+                        "ajax": {
+                            async: true,
+                            url: '@Url.Action(Actions.ViewAllUnAssignedTripData, Controllers.Home)',
+                            type: "post",
+                            data: BuildUnAssignedSearchCriteria(),
+                    },
+                    "columns": [
+                        {
+                            "title": "Trip Details", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData += `<p class="mb-0 text-truncate" title="${row["PickUpDateStr"]}"><b>TripDate: </b>${row["PickUpDateStr"]}</p>`;
+                                htmlData += `<p class="mb-0 text-truncate" title="${row["PickUpTimeStr"]}"><b>TripTime: </b>${row["PickUpTimeStrs"]}</p>`;
+                                htmlData += `<p class="mb-0 text-truncate " title="${row["PickUpAddress"]}"><b>PickUpAddress : </b>
+                                    <a target="_balnk" class="c-text-primary" href="https://www.google.com/maps/?q=${row["PickUpLat"]},${row["PickUpLong"]}">${row["PickUpAddress"] == "" || row["PickUpAddress"] == null ? '-' : row["PickUpAddress"]}</a>
+                                </p>`;
+                                htmlData += `<p class="mb-0 text-truncate " title="${row["DropOffAddress"]}"><b>DropOffAddress : </b>
+                                    <a target="_balnk" class="c-text-primary" href="https://www.google.com/maps/?q=${row["DropOffLat"]},${row["DropOffLong"]}">${row["PickUpAddress"] == "" || row["DropOffAddress"] == null ? '-' : row["DropOffAddress"]}</a>
+                                </p>`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Customer Details", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData += `<p class="mb-0"><b>Country : </b>${row["CustomerCountry"] == "" || row["CustomerCountry"] == null ? '-' : row["CustomerCountry"]}</p>`;
+                                htmlData += `<p class="mb-0"><b>State : </b>${row["CustomerState"] == "" || row["CustomerState"] == null ? '-' : row["CustomerState"]}</p>`;
+                                htmlData += `<p class="mb-0"><b>City : </b>${row["CustomerCity"] == "" || row["CustomerCity"] == null ? '-' : row["CustomerCity"]}</p>`;
+                                htmlData += `<p class="mb-0"><b>MobileNo: </b>${row["CustomerMobileNo"] == "" || row["CustomerMobileNo"] == null ? '-' : row["CustomerMobileNo"]}</p>`;
+                                htmlData += `<p class="mb-0"><b>ZipCode : </b>${row["CustomerPinCode"] == "" || row["CustomerPinCode"] == null ? '-' : row["CustomerPinCode"]}</p>`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Driver Details", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData += `<p class="mb-0"><b>Name : </b>${row["AssignedDriverName"] == "" || row["AssignedDriverName"] == null ? '-' : row["AssignedDriverName"]}</p>`;
+                                htmlData += `<p class="mb-0"><b>MobileNo : </b>${row["AssignedDriverMobileNo"] == "" || row["AssignedDriverMobileNo"] == null ? '-' : row["AssignedDriverMobileNo"]}</p>`;
+                                htmlData += `<p class="mb-0"><b>VehicleNo : </b>${row["AssignedDriverVehicleNo"] == "" || row["AssignedDriverVehicleNo"] == null ? '-' : row["AssignedDriverVehicleNo"]}</p>`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Created Date", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData = `${row["CreatedDateStr"] == "" || row["CreatedDateStr"] == null ? '-' : row["CreatedDateStr"]}`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Customer Ratings", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData = `${row["TripRatingByCustomer"] == "" || row["TripRatingByCustomer"] == null ? '-' : row["TripRatingByCustomer"]}`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Driver Ratings", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData = `${row["TripRatingByDriver"] == "" || row["TripRatingByDriver"] == null ? '-' : row["TripRatingByDriver"]}`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Customer Remarks", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData = `${row["TripRemarksByCustomer"] == "" || row["TripRemarksByCustomer"] == null ? '-' : row["TripRemarksByCustomer"]}`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Status", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                if (row["TripStatusId"] == 1) {
+                                    htmlData = `<button class="badge badge-success">Approval Pending</button>`;
+                                } else if (row["TripStatusId"] == 2) {
+                                    htmlData = `<button class="badge badge-danger">Rejected</button>`;
+                                } else if (row["TripStatusId"] == 3) {
+                                    htmlData = `<button class="badge badge-primary">Approved</button>`;
+                                } else if (row["TripStatusId"] == 4) {
+                                    htmlData = `<button class="badge badge-primary">Confirmed</button>`;
+                                } else if (row["TripStatusId"] == 5) {
+                                    htmlData = `<button class="badge badge-primary">Completed</button>`;
+                                }
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        //{
+                        //    "title": "Action", "data": "",
+                        //    "render": function (data, type, row) {
+                        //        let htmlData = "";
+                        //        if (row["TripStatusId"] == 2 || row["TripStatusId"] == 5) {
+                        //            htmlData += `-`;
+                        //        }
+                        //        else {
+                        //            htmlData += `<button class="btn btn-primary mr-1" onclick="changeStatus(${(row["Id"])});">Change Trip Status</button>`;
+                        //        }
+
+                        //        return htmlData;
+                        //    }
+                        //    , "orderable": false, "width": "3%"
+                        //},
+                        //{
+                        //    "title": "Assigned Driver:", "data": "",
+                        //    "render": function (data, type, row) {
+                        //        let htmlData = "";
+                        //        if (row["AssignedId"] > 0) {
+                        //            htmlData += `-`;
+                        //        }
+                        //        else {
+                        //            htmlData += `<button class="btn btn-primary mr-1" onclick="assignedDriver(${(row["Id"])});">Assigned Driver</button>`;
+                        //        }
+                        //        return htmlData;
+                        //    }
+                        //    , "orderable": false, "width": "3%"
+                        //},
+                    ],
+                    // setup buttons extentension: http://datatables.net/extensions/buttons/
+                        "buttons": [
+                            {
+                                text: 'Filters',
+                                className: 'them-btn',
+                                action: function (e, dt, node, config) {
+                                    OpenUnAssignedFiltersPopup();
+                                }
+                            },
+                            {
+                                text: 'Reset',
+                                className: 'them-reset-btn',
+                                action: function () {
+                                    SearchUnassignedTripReset(true)
+                                }
+                            }
+                            //{ extend: 'excel', className: 'them-btn' }
+                        ],
+
+                        // setup responsive extension: http://datatables.net/extensions/responsive/
+                        responsive: true,
+
+                        "lengthMenu": [
+                            [5, 10, 15, 20, 1000],
+                            [5, 10, 15, 20, 1000] // change per page values here
+                        ],
+                        // set the initial value
+
+                        "dom": "<'row' <'col-md-12'B>><'row'<'col-md-6 col-sm-12'l><'col-md-6 col-sm-12'f>r><'table-scrollable't><'row'<'col-md-5 col-sm-12'i><'col-md-7 col-sm-12'p>>", // horizobtal scrollable datatable
+
+                        // Uncomment below line("dom" parameter) to fix the dropdown overflow issue in the datatable cells. The default datatable layout
+                        // setup uses scrollable div(table-scrollable) with overflow:auto to enable vertical scroll(see: assets/global/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.js).
+                        // So when dropdowns used the scrollable div should be removed.
+                        //"dom": "<'row' <'col-md-12'T>><'row'<'col-md-6 col-sm-12'l><'col-md-6 col-sm-12'f>r>t<'row'<'col-md-5 col-sm-12'i><'col-md-7 col-sm-12'p>>",
+                    });
+                }
+
+                return {
+                    //main function to initiate the module
+                    init: function () {
+                        if ($.fn.DataTable.isDataTable("#UnAssignedTrips")) {
+                            $('#UnAssignedTrips').dataTable().fnDestroy();
+                            $('#divUnAssignedTripsTable').html('<table class="table table-striped" width="100%" id="UnAssignedTrips"></table>');
+                        }
+                        initTable1();
+                    }
+                };
+        }();
+        const OpenUnAssignedFiltersPopup = () => {
+            $("#UnAssignedFilterPopup").modal("show");
+            $("#unassignedfromDate").val("");
+            $("#unassignedtoDate").val("");
+            $("#unassignedfromTime").val("");
+            $("#unassignedtoTime").val("");s
+        }
+        function BuildUnAssignedSearchCriteria() {
+            try {
+                var param = {};
+                param["TripStatusId"] = $("#unassignedchangetripstatus").val();
+                param["TripDateFrom"] = $("#unassignedfromDate").val();
+                param["TripDateTo"] = $("#unassignedtoDate").val();
+                param["TripTimeFrom"] = $("#unassignedfromTime").val();
+                param["TripTimeTo"] = $("#unassignedtoTime").val();
+                return addRequestVerificationToken(param);
+            } catch (e) { }
+        }
+        const SearchUnassignedTripReset = (isReset = false) => {
+            if (isReset == true) {
+                $("#changetripstatus").val("");
+                $("#unassignedfromDate").val("");
+                $("#unassignedtoDate").val("");
+                $("#unassignedfromTime").val("");
+                $("#unassignedtoTime").val("");
+            }
+            UnAssignedTripsDataTable.init();
+            $("#UnAssignedFilterPopup").modal("hide");
+        }
+
+       // Rejected
+        var RejectedTripsDataTable = function () {
+
+                let initTable1 = function () {
+                    let table = $('#RejectedTrips');
+
+                    let oTable = table.dataTable({
+                        "stateSave": true,
+                        "autoWidth": false,
+                        "paging": true,
+                        // Internationalisation. For more info refer to http://datatables.net/manual/i18n
+                        "language": {
+                            "aria": {
+                                "sortAscending": ": activate to sort column ascending",
+                                "sortDescending": ": activate to sort column descending"
+                            },
+                            "emptyTable": "No data available in table",
+                            "info": "Showing _START_ to _END_ of _TOTAL_ entries",
+                            "infoEmpty": "No entries found",
+                            "infoFiltered": "(filtered1 from _MAX_ total entries)",
+                            "lengthMenu": "_MENU_ entries",
+                            "search": "Search:",
+                            "zeroRecords": "No matching records found"
+                        },
+                        "pageLength": 10,
+                        "processing": true,
+                        "serverSide": true,
+                        "ajax": {
+                            async: true,
+                            url: '@Url.Action(Actions.ViewAllRejectedTripData, Controllers.Home)',
+                            type: "post",
+                            data: BuildRejectedSearchCriteria(),
+                    },
+                    "columns": [
+                        {
+                            "title": "Trip Details", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData += `<p class="mb-0 text-truncate" title="${row["PickUpDate"]}"><b>TripDate: </b>${row["PickUpDate"]}</p>`;
+                                htmlData += `<p class="mb-0 text-truncate" title="${row["PickUpTime"]}"><b>TripTime: </b>${row["PickUpTime"]}</p>`;
+                                htmlData += `<p class="mb-0 text-truncate " title="${row["PickUpAddress"]}"><b>PickUpAddress : </b>
+                                    <a target="_balnk" class="c-text-primary" href="https://www.google.com/maps/?q=${row["PickUpLat"]},${row["PickUpLong"]}">${row["PickUpAddress"] == "" || row["PickUpAddress"] == null ? '-' : row["PickUpAddress"]}</a>
+                                </p>`;
+                                htmlData += `<p class="mb-0 text-truncate " title="${row["DropOffAddress"]}"><b>DropOffAddress : </b>
+                                    <a target="_balnk" class="c-text-primary" href="https://www.google.com/maps/?q=${row["DropOffLat"]},${row["DropOffLong"]}">${row["PickUpAddress"] == "" || row["DropOffAddress"] == null ? '-' : row["DropOffAddress"]}</a>
+                                </p>`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Customer Details", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData += `<p class="mb-0"><b>Country : </b>${row["CustomerCountry"] == "" || row["CustomerCountry"] == null ? '-' : row["CustomerCountry"]}</p>`;
+                                htmlData += `<p class="mb-0"><b>State : </b>${row["CustomerState"] == "" || row["CustomerState"] == null ? '-' : row["CustomerState"]}</p>`;
+                                htmlData += `<p class="mb-0"><b>City : </b>${row["CustomerCity"] == "" || row["CustomerCity"] == null ? '-' : row["CustomerCity"]}</p>`;
+                                htmlData += `<p class="mb-0"><b>MobileNo: </b>${row["CustomerMobileNo"] == "" || row["CustomerMobileNo"] == null ? '-' : row["CustomerMobileNo"]}</p>`;
+                                htmlData += `<p class="mb-0"><b>ZipCode : </b>${row["CustomerPinCode"] == "" || row["CustomerPinCode"] == null ? '-' : row["CustomerPinCode"]}</p>`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Driver Details", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData += `<p class="mb-0"><b>Name : </b>${row["AssignedDriverName"] == "" || row["AssignedDriverName"] == null ? '-' : row["AssignedDriverName"]}</p>`;
+                                htmlData += `<p class="mb-0"><b>MobileNo : </b>${row["AssignedDriverMobileNo"] == "" || row["AssignedDriverMobileNo"] == null ? '-' : row["AssignedDriverMobileNo"]}</p>`;
+                                htmlData += `<p class="mb-0"><b>VehicleNo : </b>${row["AssignedDriverVehicleNo"] == "" || row["AssignedDriverVehicleNo"] == null ? '-' : row["AssignedDriverVehicleNo"]}</p>`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Created Date", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData = `${row["CreatedDateStr"] == "" || row["CreatedDateStr"] == null ? '-' : row["CreatedDateStr"]}`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Customer Ratings", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData = `${row["TripRatingByCustomer"] == "" || row["TripRatingByCustomer"] == null ? '-' : row["TripRatingByCustomer"]}`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Driver Ratings", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData = `${row["TripRatingByDriver"] == "" || row["TripRatingByDriver"] == null ? '-' : row["TripRatingByDriver"]}`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Customer Remarks", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData = `${row["TripRemarksByCustomer"] == "" || row["TripRemarksByCustomer"] == null ? '-' : row["TripRemarksByCustomer"]}`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Status", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                if (row["TripStatusId"] == 1) {
+                                    htmlData = `<button class="badge badge-success">Approval Pending</button>`;
+                                } else if (row["TripStatusId"] == 2) {
+                                    htmlData = `<button class="badge badge-danger">Rejected</button>`;
+                                } else if (row["TripStatusId"] == 3) {
+                                    htmlData = `<button class="badge badge-primary">Approved</button>`;
+                                } else if (row["TripStatusId"] == 4) {
+                                    htmlData = `<button class="badge badge-primary">Confirmed</button>`;
+                                } else if (row["TripStatusId"] == 5) {
+                                    htmlData = `<button class="badge badge-primary">Completed</button>`;
+                                }
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        //{
+                        //    "title": "Action", "data": "",
+                        //    "render": function (data, type, row) {
+                        //        let htmlData = "";
+                        //        if (row["TripStatusId"] == 2 || row["TripStatusId"] == 5) {
+                        //            htmlData += `-`;
+                        //        }
+                        //        else {
+                        //            htmlData += `<button class="btn btn-primary mr-1" onclick="changeStatus(${(row["Id"])});">Change Trip Status</button>`;
+                        //        }
+
+                        //        return htmlData;
+                        //    }
+                        //    , "orderable": false, "width": "3%"
+                        //},
+                        //{
+                        //    "title": "Assigned Driver:", "data": "",
+                        //    "render": function (data, type, row) {
+                        //        let htmlData = "";
+                        //        if (row["AssignedId"] > 0) {
+                        //            htmlData += `-`;
+                        //        }
+                        //        else {
+                        //            htmlData += `<button class="btn btn-primary mr-1" onclick="assignedDriver(${(row["Id"])});">Assigned Driver</button>`;
+                        //        }
+                        //        return htmlData;
+                        //    }
+                        //    , "orderable": false, "width": "3%"
+                        //},
+                    ],
+                    // setup buttons extentension: http://datatables.net/extensions/buttons/
+                        "buttons": [
+                            {
+                                text: 'Filters',
+                                className: 'them-btn',
+                                action: function (e, dt, node, config) {
+                                    OpenRejectedFiltersPopup();
+                                }
+                            },
+                            {
+                                text: 'Reset',
+                                className: 'them-reset-btn',
+                                action: function () {
+                                    SearchRejectedTripReset(true)
+                                }
+                            }
+                            //{ extend: 'excel', className: 'them-btn' }
+                        ],
+
+                        // setup responsive extension: http://datatables.net/extensions/responsive/
+                        responsive: true,
+
+                        "lengthMenu": [
+                            [5, 10, 15, 20, 1000],
+                            [5, 10, 15, 20, 1000] // change per page values here
+                        ],
+                        // set the initial value
+
+                        "dom": "<'row' <'col-md-12'B>><'row'<'col-md-6 col-sm-12'l><'col-md-6 col-sm-12'f>r><'table-scrollable't><'row'<'col-md-5 col-sm-12'i><'col-md-7 col-sm-12'p>>", // horizobtal scrollable datatable
+
+                        // Uncomment below line("dom" parameter) to fix the dropdown overflow issue in the datatable cells. The default datatable layout
+                        // setup uses scrollable div(table-scrollable) with overflow:auto to enable vertical scroll(see: assets/global/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.js).
+                        // So when dropdowns used the scrollable div should be removed.
+                        //"dom": "<'row' <'col-md-12'T>><'row'<'col-md-6 col-sm-12'l><'col-md-6 col-sm-12'f>r>t<'row'<'col-md-5 col-sm-12'i><'col-md-7 col-sm-12'p>>",
+                    });
+                }
+
+                return {
+                    //main function to initiate the module
+                    init: function () {
+                        if ($.fn.DataTable.isDataTable("#RejectedTrips")) {
+                            $('#RejectedTrips').dataTable().fnDestroy();
+                            $('#divRejectedTripsTable').html('<table class="table table-striped" width="100%" id="RejectedTrips"></table>');
+                        }
+                        initTable1();
+                    }
+                };
+        }();
+        const OpenRejectedFiltersPopup = () => {
+            $("#RejectedFilterPopup").modal("show");
+            $("#rejectedtoDate").val("");
+            $("#rejectedfromTime").val("");
+            $("#rejectedfromDate").val("");
+            $("#rejectedtoTime").val("");
+        }
+        function BuildRejectedSearchCriteria() {
+            try {
+                var param = {};
+                param["TripDateFrom"] = $("#rejectedfromDate").val();
+                param["TripDateTo"] = $("#rejectedtoDate").val();
+                param["TripTimeFrom"] = $("#rejectedfromTime").val();
+                param["TripTimeTo"] = $("#rejectedtoTime").val();
+                return addRequestVerificationToken(param);
+            } catch (e) { }
+        }
+        const SearchRejectedTripReset = (isReset = false) => {
+            if (isReset == true) {
+                $("#rejectedtoDate").val("");
+                $("#rejectedfromTime").val("");
+                $("#rejectedfromDate").val("");
+                $("#rejectedtoTime").val("");
+            }
+            RejectedTripsDataTable.init();
+            $("#RejectedFilterPopup").modal("hide");
+        }
+
+        //// Confirmed
+        var ConfirmedTripsDataTable = function () {
+
+                let initTable1 = function () {
+                    let table = $('#ConfirmedTrips');
+
+                    let oTable = table.dataTable({
+                        "stateSave": true,
+                        "autoWidth": false,
+                        "paging": true,
+                        // Internationalisation. For more info refer to http://datatables.net/manual/i18n
+                        "language": {
+                            "aria": {
+                                "sortAscending": ": activate to sort column ascending",
+                                "sortDescending": ": activate to sort column descending"
+                            },
+                            "emptyTable": "No data available in table",
+                            "info": "Showing _START_ to _END_ of _TOTAL_ entries",
+                            "infoEmpty": "No entries found",
+                            "infoFiltered": "(filtered1 from _MAX_ total entries)",
+                            "lengthMenu": "_MENU_ entries",
+                            "search": "Search:",
+                            "zeroRecords": "No matching records found"
+                        },
+                        "pageLength": 10,
+                        "processing": true,
+                        "serverSide": true,
+                        "ajax": {
+                            async: true,
+                            url: '@Url.Action(Actions.ViewAllConfirmedTripData, Controllers.Home)',
+                            type: "post",
+                            data: BuildConfirmedSearchCriteria(),
+                    },
+                    "columns": [
+                        {
+                            "title": "Trip Details", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData += `<p class="mb-0 text-truncate" title="${row["PickUpDate"]}"><b>TripDate: </b>${row["PickUpDate"]}</p>`;
+                                htmlData += `<p class="mb-0 text-truncate" title="${row["PickUpTime"]}"><b>TripTime: </b>${row["PickUpTime"]}</p>`;
+                                htmlData += `<p class="mb-0 text-truncate " title="${row["PickUpAddress"]}"><b>PickUpAddress : </b>
+                                    <a target="_balnk" class="c-text-primary" href="https://www.google.com/maps/?q=${row["PickUpLat"]},${row["PickUpLong"]}">${row["PickUpAddress"] == "" || row["PickUpAddress"] == null ? '-' : row["PickUpAddress"]}</a>
+                                </p>`;
+                                htmlData += `<p class="mb-0 text-truncate " title="${row["DropOffAddress"]}"><b>DropOffAddress : </b>
+                                    <a target="_balnk" class="c-text-primary" href="https://www.google.com/maps/?q=${row["DropOffLat"]},${row["DropOffLong"]}">${row["PickUpAddress"] == "" || row["DropOffAddress"] == null ? '-' : row["DropOffAddress"]}</a>
+                                </p>`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Customer Details", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData += `<p class="mb-0"><b>Country : </b>${row["CustomerCountry"] == "" || row["CustomerCountry"] == null ? '-' : row["CustomerCountry"]}</p>`;
+                                htmlData += `<p class="mb-0"><b>State : </b>${row["CustomerState"] == "" || row["CustomerState"] == null ? '-' : row["CustomerState"]}</p>`;
+                                htmlData += `<p class="mb-0"><b>City : </b>${row["CustomerCity"] == "" || row["CustomerCity"] == null ? '-' : row["CustomerCity"]}</p>`;
+                                htmlData += `<p class="mb-0"><b>MobileNo: </b>${row["CustomerMobileNo"] == "" || row["CustomerMobileNo"] == null ? '-' : row["CustomerMobileNo"]}</p>`;
+                                htmlData += `<p class="mb-0"><b>ZipCode : </b>${row["CustomerPinCode"] == "" || row["CustomerPinCode"] == null ? '-' : row["CustomerPinCode"]}</p>`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Driver Details", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData += `<p class="mb-0"><b>Name : </b>${row["AssignedDriverName"] == "" || row["AssignedDriverName"] == null ? '-' : row["AssignedDriverName"]}</p>`;
+                                htmlData += `<p class="mb-0"><b>MobileNo : </b>${row["AssignedDriverMobileNo"] == "" || row["AssignedDriverMobileNo"] == null ? '-' : row["AssignedDriverMobileNo"]}</p>`;
+                                htmlData += `<p class="mb-0"><b>VehicleNo : </b>${row["AssignedDriverVehicleNo"] == "" || row["AssignedDriverVehicleNo"] == null ? '-' : row["AssignedDriverVehicleNo"]}</p>`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Created Date", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData = `${row["CreatedDateStr"] == "" || row["CreatedDateStr"] == null ? '-' : row["CreatedDateStr"]}`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Customer Ratings", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData = `${row["TripRatingByCustomer"] == "" || row["TripRatingByCustomer"] == null ? '-' : row["TripRatingByCustomer"]}`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Driver Ratings", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData = `${row["TripRatingByDriver"] == "" || row["TripRatingByDriver"] == null ? '-' : row["TripRatingByDriver"]}`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Customer Remarks", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData = `${row["TripRemarksByCustomer"] == "" || row["TripRemarksByCustomer"] == null ? '-' : row["TripRemarksByCustomer"]}`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Status", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                if (row["TripStatusId"] == 1) {
+                                    htmlData = `<button class="badge badge-success">Approval Pending</button>`;
+                                } else if (row["TripStatusId"] == 2) {
+                                    htmlData = `<button class="badge badge-danger">Rejected</button>`;
+                                } else if (row["TripStatusId"] == 3) {
+                                    htmlData = `<button class="badge badge-primary">Approved</button>`;
+                                } else if (row["TripStatusId"] == 4) {
+                                    htmlData = `<button class="badge badge-primary">Confirmed</button>`;
+                                } else if (row["TripStatusId"] == 5) {
+                                    htmlData = `<button class="badge badge-primary">Completed</button>`;
+                                }
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        //{
+                        //    "title": "Action", "data": "",
+                        //    "render": function (data, type, row) {
+                        //        let htmlData = "";
+                        //        if (row["TripStatusId"] == 2 || row["TripStatusId"] == 5) {
+                        //            htmlData += `-`;
+                        //        }
+                        //        else {
+                        //            htmlData += `<button class="btn btn-primary mr-1" onclick="changeStatus(${(row["Id"])});">Change Trip Status</button>`;
+                        //        }
+
+                        //        return htmlData;
+                        //    }
+                        //    , "orderable": false, "width": "3%"
+                        //},
+                        //{
+                        //    "title": "Assigned Driver:", "data": "",
+                        //    "render": function (data, type, row) {
+                        //        let htmlData = "";
+                        //        if (row["AssignedId"] > 0) {
+                        //            htmlData += `-`;
+                        //        }
+                        //        else {
+                        //            htmlData += `<button class="btn btn-primary mr-1" onclick="assignedDriver(${(row["Id"])});">Assigned Driver</button>`;
+                        //        }
+                        //        return htmlData;
+                        //    }
+                        //    , "orderable": false, "width": "3%"
+                        //},
+                    ],
+                    // setup buttons extentension: http://datatables.net/extensions/buttons/
+                        "buttons": [
+                            {
+                                text: 'Filters',
+                                className: 'them-btn',
+                                action: function (e, dt, node, config) {
+                                    OpenConfirmedFiltersPopup();
+                                }
+                            },
+                            {
+                                text: 'Reset',
+                                className: 'them-reset-btn',
+                                action: function () {
+                                    SearchConfirmedTripReset(true)
+                                }
+                            }
+                            //{ extend: 'excel', className: 'them-btn' }
+                        ],
+
+                        // setup responsive extension: http://datatables.net/extensions/responsive/
+                        responsive: true,
+
+                        "lengthMenu": [
+                            [5, 10, 15, 20, 1000],
+                            [5, 10, 15, 20, 1000] // change per page values here
+                        ],
+                        // set the initial value
+
+                        "dom": "<'row' <'col-md-12'B>><'row'<'col-md-6 col-sm-12'l><'col-md-6 col-sm-12'f>r><'table-scrollable't><'row'<'col-md-5 col-sm-12'i><'col-md-7 col-sm-12'p>>", // horizobtal scrollable datatable
+
+                        // Uncomment below line("dom" parameter) to fix the dropdown overflow issue in the datatable cells. The default datatable layout
+                        // setup uses scrollable div(table-scrollable) with overflow:auto to enable vertical scroll(see: assets/global/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.js).
+                        // So when dropdowns used the scrollable div should be removed.
+                        //"dom": "<'row' <'col-md-12'T>><'row'<'col-md-6 col-sm-12'l><'col-md-6 col-sm-12'f>r>t<'row'<'col-md-5 col-sm-12'i><'col-md-7 col-sm-12'p>>",
+                    });
+                }
+
+                return {
+                    //main function to initiate the module
+                    init: function () {
+                        if ($.fn.DataTable.isDataTable("#ConfirmedTrips")) {
+                            $('#ConfirmedTrips').dataTable().fnDestroy();
+                            $('#divConfirmedTripsTable').html('<table class="table table-striped" width="100%" id="ConfirmedTrips"></table>');
+                        }
+                        initTable1();
+                    }
+                };
+        }();
+        const OpenConfirmedFiltersPopup = () => {
+            $("#ConfirmedFilterPopup").modal("show");
+            $("#confirmedtoDate").val("");
+            $("#confirmedfromTime").val("");
+            $("#confirmedfromDate").val("");
+            $("#confirmedtoTime").val("");
+        }
+        function BuildConfirmedSearchCriteria() {
+            try {
+                var param = {};
+                param["TripStatusId"] = $("#confirmedchangetripstatus").val();
+                param["TripDateFrom"] = $("#confirmedfromDate").val();
+                param["TripDateTo"] = $("#confirmedtoDate").val();
+                param["TripTimeFrom"] = $("#confirmedfromTime").val();
+                param["TripTimeTo"] = $("#confirmedtoTime").val();
+                return addRequestVerificationToken(param);
+            } catch (e) { }
+        }
+        const SearchConfirmedTripReset = (isReset = false) => {
+            if (isReset == true) {
+                $("#confirmedchangetripstatus").val("");
+                $("#confirmedtoDate").val("");
+                $("#confirmedfromTime").val("");
+                $("#confirmedfromDate").val("");
+                $("#confirmedtoTime").val("");
+            }
+            CompletedTripsDataTable.init();
+            $("#ConfirmedFilterPopup").modal("hide");
+
+        }
+          //InactiveMessage swal function
+        function InactiveMessageCustomer(Id) {
+            swal({
+                title: "Are you sure ?",
+                text: "You will be in-activating the customer !",
+                type: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#dc3545",
+                confirmButtonText: "Yes, do it !",
+                closeOnConfirm: false
+            }, function () {
+                ActiveInActiveCustomer(Id,"inactivate" , 2);
+               });
+        }
+
+        //ActiveMessage swal function
+        function ActiveMessageCustomer(Id) {
+            swal({
+                title: "Are you sure ?",
+                text: "You will be activating the customer !",
+                type: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#dc3545",
+                confirmButtonText: "Yes, do it !",
+                closeOnConfirm: false
+            }, function () {
+                ActiveInActiveCustomer(Id,"activate", 1);
+               });
+        }
+
+        //status ActiveInActive change function
+        function ActiveInActiveCustomer(rui, type, LookUpStatusId) {
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action(Actions.ActiveInActive, Controllers.Customer)',
+                data: { ri: rui, lookUpStatusId: LookUpStatusId },
+                dataType: 'json',
+                success: function (response) {
+                    CustomerDataTable.init();
+                    if (type == "inactivate") {
+                        swal("In Activated !", "The customer has been in-activated successfully.", "success");
+                    } else if (type == "activate") {
+                        swal("Activated !", "The customer has been activated successfully.", "success");
+                    }
+                },
+                error: function (error) {
+                    if (type == "inactivate") {
+                        swal("Error !", "An error occured while in-activating the customer.", "error");
+                    } else if (type == "activate") {
+                        swal("Error !", "An error occured while activating the customer.", "error");
+                    }
+
+                }
+            });
+        }
+
+         //InactiveMessage swal function
+        function InactiveMessage(Id) {
+            swal({
+                title: "Are you sure ?",
+                text: "You will be in-activating the Driver !",
+                type: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#dc3545",
+                confirmButtonText: "Yes, do it !",
+                closeOnConfirm: false
+            }, function () {
+                  ActiveInActive(Id,"inactivate" , 2);
+               });
+        }
+
+        //ActiveMessage swal function
+        function ActiveMessage(Id) {
+            swal({
+                title: "Are you sure ?",
+                text: "You will be activating the Driver !",
+                type: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#dc3545",
+                confirmButtonText: "Yes, do it !",
+                closeOnConfirm: false
+            }, function () {
+                 ActiveInActive(Id,"activate", 1);
+               });
+        }
+
+        //status ActiveInActive change function
+        function ActiveInActive(rui, type, LookUpStatusId) {
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action(Actions.ActiveInActive, Controllers.Driver)',
+                data: { ri: rui, lookUpStatusId: LookUpStatusId },
+                dataType: 'json',
+                success: function (response) {
+                    DriverDataTable.init();
+                    if (type == "inactivate") {
+                        swal("In Activated !", "The Driver has been in-activated successfully.", "success");
+                    } else if (type == "activate") {
+                        swal("Activated !", "The Driver has been activated successfully.", "success");
+                    }
+                },
+                error: function (error) {
+                    if (type == "inactivate") {
+                        swal("Error !", "An error occured while in-activating the Driver.", "error");
+                    } else if (type == "activate") {
+                        swal("Error !", "An error occured while activating the Driver.", "error");
+                    }
+
+                }
+            });
+        }
+
+        //Completed
+        var CompletedTripsDataTable = function () {
+
+                let initTable1 = function () {
+                    let table = $('#CompletedTrips');
+
+                    let oTable = table.dataTable({
+                        "stateSave": true,
+                        "autoWidth": false,
+                        "paging": true,
+                        // Internationalisation. For more info refer to http://datatables.net/manual/i18n
+                        "language": {
+                            "aria": {
+                                "sortAscending": ": activate to sort column ascending",
+                                "sortDescending": ": activate to sort column descending"
+                            },
+                            "emptyTable": "No data available in table",
+                            "info": "Showing _START_ to _END_ of _TOTAL_ entries",
+                            "infoEmpty": "No entries found",
+                            "infoFiltered": "(filtered1 from _MAX_ total entries)",
+                            "lengthMenu": "_MENU_ entries",
+                            "search": "Search:",
+                            "zeroRecords": "No matching records found"
+                        },
+                        "pageLength": 10,
+                        "processing": true,
+                        "serverSide": true,
+                        "ajax": {
+                            async: true,
+                            url: '@Url.Action(Actions.ViewAllCompletedTripData, Controllers.Home)',
+                            type: "post",
+                            data: BuildCompletedSearchCriteria(),
+                    },
+                    "columns": [
+                        {
+                            "title": "Trip Details", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData += `<p class="mb-0 text-truncate" title="${row["PickUpDate"]}"><b>TripDate: </b>${row["PickUpDate"]}</p>`;
+                                htmlData += `<p class="mb-0 text-truncate" title="${row["PickUpTime"]}"><b>TripTime: </b>${row["PickUpTime"]}</p>`;
+                                htmlData += `<p class="mb-0 text-truncate " title="${row["PickUpAddress"]}"><b>PickUpAddress : </b>
+                                    <a target="_balnk" class="c-text-primary" href="https://www.google.com/maps/?q=${row["PickUpLat"]},${row["PickUpLong"]}">${row["PickUpAddress"] == "" || row["PickUpAddress"] == null ? '-' : row["PickUpAddress"]}</a>
+                                </p>`;
+                                htmlData += `<p class="mb-0 text-truncate " title="${row["DropOffAddress"]}"><b>DropOffAddress : </b>
+                                    <a target="_balnk" class="c-text-primary" href="https://www.google.com/maps/?q=${row["DropOffLat"]},${row["DropOffLong"]}">${row["PickUpAddress"] == "" || row["DropOffAddress"] == null ? '-' : row["DropOffAddress"]}</a>
+                                </p>`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Customer Details", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData += `<p class="mb-0"><b>Country : </b>${row["CustomerCountry"] == "" || row["CustomerCountry"] == null ? '-' : row["CustomerCountry"]}</p>`;
+                                htmlData += `<p class="mb-0"><b>State : </b>${row["CustomerState"] == "" || row["CustomerState"] == null ? '-' : row["CustomerState"]}</p>`;
+                                htmlData += `<p class="mb-0"><b>City : </b>${row["CustomerCity"] == "" || row["CustomerCity"] == null ? '-' : row["CustomerCity"]}</p>`;
+                                htmlData += `<p class="mb-0"><b>MobileNo: </b>${row["CustomerMobileNo"] == "" || row["CustomerMobileNo"] == null ? '-' : row["CustomerMobileNo"]}</p>`;
+                                htmlData += `<p class="mb-0"><b>ZipCode : </b>${row["CustomerPinCode"] == "" || row["CustomerPinCode"] == null ? '-' : row["CustomerPinCode"]}</p>`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Driver Details", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData += `<p class="mb-0"><b>Name : </b>${row["AssignedDriverName"] == "" || row["AssignedDriverName"] == null ? '-' : row["AssignedDriverName"]}</p>`;
+                                htmlData += `<p class="mb-0"><b>MobileNo : </b>${row["AssignedDriverMobileNo"] == "" || row["AssignedDriverMobileNo"] == null ? '-' : row["AssignedDriverMobileNo"]}</p>`;
+                                htmlData += `<p class="mb-0"><b>VehicleNo : </b>${row["AssignedDriverVehicleNo"] == "" || row["AssignedDriverVehicleNo"] == null ? '-' : row["AssignedDriverVehicleNo"]}</p>`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Created Date", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData = `${row["CreatedDateStr"] == "" || row["CreatedDateStr"] == null ? '-' : row["CreatedDateStr"]}`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Customer Ratings", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData = `${row["TripRatingByCustomer"] == "" || row["TripRatingByCustomer"] == null ? '-' : row["TripRatingByCustomer"]}`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Driver Ratings", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData = `${row["TripRatingByDriver"] == "" || row["TripRatingByDriver"] == null ? '-' : row["TripRatingByDriver"]}`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Customer Remarks", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                htmlData = `${row["TripRemarksByCustomer"] == "" || row["TripRemarksByCustomer"] == null ? '-' : row["TripRemarksByCustomer"]}`;
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        {
+                            "title": "Status", "data": "",
+                            "render": function (data, type, row) {
+                                let htmlData = "";
+                                if (row["TripStatusId"] == 1) {
+                                    htmlData = `<button class="badge badge-success">Approval Pending</button>`;
+                                } else if (row["TripStatusId"] == 2) {
+                                    htmlData = `<button class="badge badge-danger">Rejected</button>`;
+                                } else if (row["TripStatusId"] == 3) {
+                                    htmlData = `<button class="badge badge-primary">Approved</button>`;
+                                } else if (row["TripStatusId"] == 4) {
+                                    htmlData = `<button class="badge badge-primary">Confirmed</button>`;
+                                } else if (row["TripStatusId"] == 5) {
+                                    htmlData = `<button class="badge badge-primary">Completed</button>`;
+                                }
+                                return htmlData;
+                            }
+                            , "orderable": false, "width": "3%"
+                        },
+                        //{
+                        //    "title": "Action", "data": "",
+                        //    "render": function (data, type, row) {
+                        //        let htmlData = "";
+                        //        if (row["TripStatusId"] == 2 || row["TripStatusId"] == 5) {
+                        //            htmlData += `-`;
+                        //        }
+                        //        else {
+                        //            htmlData += `<button class="btn btn-primary mr-1" onclick="changeStatus(${(row["Id"])});">Change Trip Status</button>`;
+                        //        }
+
+                        //        return htmlData;
+                        //    }
+                        //    , "orderable": false, "width": "3%"
+                        //},
+                        //{
+                        //    "title": "Assigned Driver:", "data": "",
+                        //    "render": function (data, type, row) {
+                        //        let htmlData = "";
+                        //        if (row["AssignedId"] > 0) {
+                        //            htmlData += `-`;
+                        //        }
+                        //        else {
+                        //            htmlData += `<button class="btn btn-primary mr-1" onclick="assignedDriver(${(row["Id"])});">Assigned Driver</button>`;
+                        //        }
+                        //        return htmlData;
+                        //    }
+                        //    , "orderable": false, "width": "3%"
+                        //},
+                    ],
+                    // setup buttons extentension: http://datatables.net/extensions/buttons/
+                        "buttons": [
+                            {
+                                text: 'Filters',
+                                className: 'them-btn',
+                                action: function (e, dt, node, config) {
+                                    OpenCompletedTripFiltersPopup();
+                                }
+                            },
+                            {
+                                text: 'Reset',
+                                className: 'them-reset-btn',
+                                action: function () {
+                                    SearchCompletedTripReset(true)
+                                }
+                            }
+                            //{ extend: 'excel', className: 'them-btn' }
+                        ],
+
+                        // setup responsive extension: http://datatables.net/extensions/responsive/
+                        responsive: true,
+
+                        "lengthMenu": [
+                            [5, 10, 15, 20, 1000],
+                            [5, 10, 15, 20, 1000] // change per page values here
+                        ],
+                        // set the initial value
+
+                        "dom": "<'row' <'col-md-12'B>><'row'<'col-md-6 col-sm-12'l><'col-md-6 col-sm-12'f>r><'table-scrollable't><'row'<'col-md-5 col-sm-12'i><'col-md-7 col-sm-12'p>>", // horizobtal scrollable datatable
+
+                        // Uncomment below line("dom" parameter) to fix the dropdown overflow issue in the datatable cells. The default datatable layout
+                        // setup uses scrollable div(table-scrollable) with overflow:auto to enable vertical scroll(see: assets/global/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.js).
+                        // So when dropdowns used the scrollable div should be removed.
+                        //"dom": "<'row' <'col-md-12'T>><'row'<'col-md-6 col-sm-12'l><'col-md-6 col-sm-12'f>r>t<'row'<'col-md-5 col-sm-12'i><'col-md-7 col-sm-12'p>>",
+                    });
+                }
+
+                return {
+                    //main function to initiate the module
+                    init: function () {
+                        if ($.fn.DataTable.isDataTable("#CompletedTrips")) {
+                            $('#CompletedTrips').dataTable().fnDestroy();
+                            $('#divCompletedTripsTable').html('<table class="table table-striped" width="100%" id="CompletedTrips"></table>');
+                        }
+                        initTable1();
+                    }
+                };
+        }();
+        const OpenCompletedTripFiltersPopup = () => {
+            $("#CompletedFilterPopup").modal("show");
+            $("#completedtoDate").val("");
+            $("#completedfromTime").val("");
+            $("#completedfromDate").val("");
+            $("#completedtoTime").val("");
+        }
+        function BuildCompletedSearchCriteria() {
+            try {
+                var param = {};
+                param["TripStatusId"] = $("#completedchangetripstatus").val();
+                param["TripDateFrom"] = $("#completedfromDate").val();
+                param["TripDateTo"] = $("#completedtoDate").val();
+                param["TripTimeFrom"] = $("#completedfromTime").val();
+                param["TripTimeTo"] = $("#completedtoTime").val();
+                return addRequestVerificationToken(param);
+            } catch (e) { }
+        }
+        const SearchCompletedTripReset = (isReset = false) => {
+            if (isReset == true) {
+                $("#completedchangetripstatus").val("");
+                $("#completedtoDate").val("");
+                $("#completedfromTime").val("");
+                $("#completedfromDate").val("");
+                $("#completedtoTime").val("");
+            }
+            CompletedTripsDataTable.init();
+            $("#CompletedFilterPopup").modal("hide");
+        }
+
+        </script>
+        <script src="~/assets/validation/js/jquery-ui.min.js"></script>
+        <script src="~/assets/validation/js/app.min.js"></script>
+        <script src="~/assets/validation/js/ui-modals.min.js"></script>
+        <script src="~/assets/validation/js/jquery.validate.min.js"></script>
+        <script src="~/assets/validation/js/additional-methods.min.js"></script>
+        <script src="~/assets/validation/js/toastr.min.js"></script>
+        <script src="~/assets/validation/js/ui-toastr.min.js"></script>
+        <script src="~/assets/vendor/dropify/js/dropify.min.js"></script>
+        <script src="~/assets/vendor/sweetalert/sweetalert.min.js"></script> <!-- SweetAlert Plugin Js -->
+        <script src="~/assets/js/pages/forms/dropify.js"></script>
+        <script src="~/assets/js/pages/ui/dialogs.js"></script>
+
+    }

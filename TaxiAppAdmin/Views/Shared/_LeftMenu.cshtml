@@ -1,0 +1,23 @@
+﻿@using TaxiApp.Common;
+@using TaxiAppAdmin.Pages;
+@using System.Web.Optimization;
+<style>
+    .sidebar-nav .metismenu ul a::before {
+        content: '';
+        position: absolute;
+        left: 19px
+    }
+</style>
+<ul class="main-menu metismenu">
+    <li class="custom"><a href="@Url.Action(Actions.Index, Controllers.Home, new { Area = "" })" id="Dashboard"><i class="icon-speedometer"></i><span>Dashboard</span></a></li>
+    @*<li class="custom"><a href="@Url.Action(Actions.Index, Controllers.Customer, new { Area = "" })" id="customer"><i class="icon-users"></i><span>Manage Customers</span></a></li>
+    <li class="custom"><a href="@Url.Action(Actions.Index, Controllers.Driver, new { Area = "" })" id="driver"><i class="fa fa-user"></i><span>Manage Drivers</span></a></li>
+    <li class="custom"><a href="@Url.Action(Actions.Index, Controllers.Trip, new { Area = "" })" id="trip"><i class="fa fa-briefcase"></i><span>Manage Trips</span></a></li>
+    <li class="custom"><a href="@Url.Action(Actions.Index, Controllers.Faq, new { Area = "" })" id="faq"><i class="fa fa-question-circle"></i><span>Manage Faq</span></a></li>
+    <li class="custom"><a href="@Url.Action(Actions.Index, Controllers.PackagePrice, new { Area = "" })" id="packagePrice"><i class="fa fa-inr"></i><span>Manage Package Price</span></a></li>*@
+    @*<li class="custom"><a href="@Url.Action(Actions.Index, Controllers.PromoCode, new { Area = "" })" id="promoCode"><i class="fa fa-question-circle"></i><span>Manage Promo Code</span></a></li>*@
+    <li class="custom"><a href="@Url.Action(Actions.ChangePassword, Controllers.ChangePassword, new { Area = "" })" id="ChangePassword"><i class="fa fa-key" aria-hidden="true"></i><span>Change Password</span></a></li>
+    <li class="custom"><a href="@Url.Action(Actions.Logout,Controllers.Account)" id="logout"><i class="fa fa-power-off"></i>Logout</a></li>
+</ul>
+
+
